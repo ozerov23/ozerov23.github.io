@@ -1,0 +1,699 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, {
+	display: block;
+}
+h1{
+    font-family:"NSB";
+    text-transform: uppercase;
+}
+p,a{
+    font-family: "FEL";
+}
+body {
+	margin: 0px;
+}
+*{
+    box-sizing: border-box;
+    
+}
+
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(000,000,000,.5);
+    z-index: 5;
+    width: 100%;
+    cursor: pointer;
+}
+#modal_window{
+    position: fixed;
+    width: 600px;
+    height: 500px;
+    top: 10%;
+    left: 50%;
+    margin-left: -300px;
+    background-color: black;
+    z-index: 6;
+    display: none;
+    
+}
+#modal_window span.ex{
+    width:25px;
+    height:25px;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+#modal_window span.ex img{
+    width: 100%;
+}
+#modal_window>img{
+    width: 70px;
+    margin: 50px auto 50px auto;
+    display: block;
+    cursor: pointer;
+}
+#modal_window form{
+    width: 80%;
+    margin:0px auto 0px auto;
+}
+#modal_window form .input{
+    width:100%;
+}
+#modal_window form .input input{
+    width:100%;
+    padding: 10px 0px 10px 30px;
+    display: block;
+    border: none;
+    background-color: none;
+    font-size: 17px;
+    margin-top: 12px;
+}
+#modal_window form  .phone{
+    width: 100%;
+    padding: 10px 0px;
+    width: 500px;
+    margin: 120px auto;
+    display: block;
+}
+#modal_window form input[type='submit']{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 260px;
+    padding: 16px 0px; 
+    font-size: 18px;
+   
+    border:none;
+    background-color: #ebb402;
+    font-weight: bold;
+}
+
+@media screen and (max-width:660px){
+    
+    #modal_window{
+        width: 80%;
+        left: 10%;
+       margin: auto
+    }
+    #modal_window form input[type='submit']{
+    width: 100%;
+}
+}
+@media screen and (max-width:544px){
+    
+    #modal_window{
+        width: 100%;
+        left: 0;
+        margin-left:0px;
+    }
+}
+
+header nav{
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    padding: 20px 0px 10px 0px;
+}
+header nav >.logo{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 120px;
+}
+header nav > .logo img{
+    width: 100%;
+}
+header nav > .menu{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 10px;
+}
+header nav > .menu img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+header nav .menu-nav1{
+    position: fixed;
+    left: -200px;
+    top:0px;
+    width: 200px;
+    height: 100%;
+    list-style: none;
+    background-color: rgba(000,000,000,.7);
+}
+header nav > .menu .menu-nav1 img{
+    width: 30px;
+    height: 30px;
+    float: right;
+     margin-top: 10px;
+}
+header nav > .menu .menu-nav1 ul{
+    padding-top: 120px;
+    width: 100%;
+}
+header nav > .menu ul li{
+    text-align: center;
+   
+}
+header nav > .menu .menu-nav1 ul li a{
+    display: block;
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.2s ease;
+    transition: color 0.2s ease;
+    font-weight: bold;
+}
+header nav > .menu .menu-nav2 ul li a{
+    display: block;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.2s ease;
+    transition: color 0.2s ease;
+    font-weight: bold;
+}
+    nav > .menu .menu-nav1 ul li a:hover,nav > .menu .menu-nav2 ul li a:hover{
+        background-color: white;
+        color: black;
+    }
+ header   nav .menu-nav2{
+            position: inherit;
+            width: 100%;
+            display: none;
+    }
+ header   nav > .menu .menu-nav2 img{
+        display: none;
+    }
+
+@media screen and (max-width:960px){
+  
+    nav > .menu .menu-nav ul{
+        padding: 0px;
+        margin-top: 20px;
+    }
+    header  nav .logo{
+        float: none;
+        margin: auto;
+        width: 50px;
+      height: 60px;
+    }
+   header nav > .menu{
+        width: 100%;
+        height: inherit;
+        float:none;
+        margin:10px 0px 0px 0px ;
+    }
+   header  nav > .menu>img{
+        width: 40px;
+        margin: auto;
+        display: block;
+    }
+   header  nav > .menu .menu-nav1{
+        display: none;
+    }
+}
+
+
+header{
+    width: 100%;
+    height: 700px;
+    background: url(../img/amst.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 62px; 
+    color: white;
+    
+}
+header p{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 13px;
+}
+header>a{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 170px;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 120px;
+    border:2px solid #A8A8A8;
+}
+header a img{
+    width: 32px;
+    position: relative;
+    top:16;
+}
+@media screen and (max-width:1100px){
+    header{
+    width: 100%;
+    background: url(../img/amst1100.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 180px;
+    }
+    header h1{
+        font-size: 52px;
+    }
+}
+@media screen and (max-width:980px){
+    header{
+    width: 100%;
+    height: 600px;
+    background: url(../img/amst980.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 140px;
+    }
+    header h1{
+        font-size: 42px;
+    }
+}
+@media screen and (max-width:800px){
+    header{
+    width: 100%;
+    height: 700px;
+    background: url(../img/amst800.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+    padding-bottom: 220px;
+    }
+    header h1{
+        font-size: 38px;
+    }
+    header>a{
+        margin-top: 210px;
+    }
+}
+@media screen and (max-width:600px){
+    header{
+    width: 100%;
+    height: 750px;
+    background: url(../img/amst600.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 280px;
+    }
+   
+}
+#catalog{
+    padding: 120px 0px 120px 0px;
+}
+#catalog>h1{
+    text-align: center;
+    font-size: 52px;
+}
+#catalog  .product-block{
+    width: 1000px;
+    margin: 100px auto 0px;
+}
+#catalog  .product-block .row{
+    display: flex;
+    justify-content: space-around;
+}
+#catalog  .product-block .row .product{ 
+    width: 240px;
+    overflow: hidden;
+}
+#catalog  .product-block .row .product  img{
+    width: 100%;
+    height: 240px;
+    display: block
+}
+#catalog  .product-block .row .product h1{
+    text-align: center;
+    font-size: 29px;
+}
+#catalog  .product-block .row .product a{
+    width: 150px;
+    display: block;
+    margin:12px  auto 0px ;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width:1016px){
+    #catalog  .product-block{
+        width: 100%;
+    }
+    #catalog  .product-block .row .product{ 
+    width: 210px;
+    overflow: hidden;
+    }  
+    #catalog  .product-block .row .product img{ 
+       height: 220px;
+    } 
+}
+@media screen and (max-width:870px){
+    #catalog  .product-block{
+    width: 360px;
+    }
+    #catalog  .product-block .row{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+    #catalog  .product-block .row .product{
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    #catalog  .product-block .row .product  img{
+        margin: auto;
+        display: block;
+        width: 100%;
+        height: 370px;
+    }
+}
+@media screen and (max-width:423px){
+    #catalog  .product-block{
+        width: 100%;
+    }
+    #catalog  .product-block .row .product  img{
+        margin: auto;
+        display: block;
+        width: 270px;
+        height: 270px;
+    }
+}
+@media screen and (max-width:300px){
+    
+    #catalog  .product-block .row .product  img{
+        
+        width: 100%;
+    }
+}
+#works{
+    padding: 120px 0px 100px;
+}
+#works h1{
+    text-align: center;
+   font-size: 52px; 
+}
+#works .items{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 50px auto 0px auto;
+}
+#works .items .item{
+    width: 150px;
+}
+#works .items .item img{
+    width: 110px;
+    display: block;
+    margin: auto;
+}
+#works .items .item p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 12px;
+}
+@media screen and (max-width: 1022px){
+    #works .items{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 818px){
+    #works .items{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 726px){
+    #works .items{
+        width: 600px;
+    }
+    #works .items .item p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 620px){
+    #works .items{
+        width: 400px;
+        flex-flow: column;
+    }
+    #works .items .item{
+        margin: 0px auto 40px;
+    }
+    #works .items .item p{
+        font-size: 12px;
+}
+}
+@media screen and (max-width: 428px){
+    #works .items{
+        width: 100%;
+        flex-flow: column;
+    }
+    #works .items .item{
+        margin: 0px auto 40px;
+    }
+    #works .items .item p{
+        font-size: 12px;
+}
+}
+#comments{
+    width: 100%;
+    background: url(../img/keybords.jpg) no-repeat center;
+    background-size: cover;
+}
+#comments .bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(000,000,000,.5);
+    padding: 100px 0px 70px 0px;
+}
+#comments h1{
+    text-align: center;
+    font-size: 52px; 
+    text-transform: uppercase;
+    color: white;
+}
+#comments .win{
+    width: 1000px;
+    height: 280px;
+    margin: 80px auto 0px ;
+    overflow: hidden;
+    clear: both;
+    
+}
+#comments .win .comment{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#comments .win  .comment img{
+    margin: auto;
+    display: block;
+    border-radius: 120px;
+    
+}
+#comments .win .comment p{
+    width: 80%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 90px;
+
+}
+
+
+#comments .c2,#comments .c3,#comments .c4{
+    display: none;
+}
+#comments .switch{
+    width: 300px;
+    height: 13px;
+    margin: 60px auto 0px ;
+    display: flex;
+    justify-content: space-between;
+}
+#comments .switch span{
+    width: 50px;
+    height: 13px;
+    border: 1px solid rgba(255,255,255,.4);
+}
+.click{
+    background: rgba(255,255,255,.4);
+    border:none;
+}
+@media screen and (max-width: 1200px){
+    #comments .win{
+        width: 800px;
+    }
+    #comments .win .comment p{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 880px){
+    #comments .win{
+        width:100%;
+     
+    }
+    #comments h1{
+        font-size: 38px;
+    }
+    #comments .win .comment img{
+            width: 140px;
+    }
+    #comments .win .comment p{
+       font-size: 14px;
+        padding: 0px 50px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 880px){
+    #comments .win{
+        width:100%;
+     
+    }
+    #comments .win .comment img{
+            width: 140px;
+    }
+    #comments .win .comment p{
+       font-size: 14px;
+        padding: 0px 50px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 350px){
+    #comments .win{
+        width:100%;
+        height: 443px;
+    }
+    #comments .win .comment img{
+            width: 140px;
+    }
+    #comments  h1{
+        font-size: 32px;
+    }
+    #comments .win .comment p{
+       font-size: 14px;
+        padding: 0px 37px;
+        margin-top: 50px;
+    }
+    #comments .switch{
+    width: 200px;
+    height: 13px;
+    margin: 60px auto 0px ;
+    display: flex;
+    justify-content: space-between;
+}
+#comments .switch span{
+    width: 30px;
+    height: 13px;
+    border: 1px solid rgba(255,255,255,.4);
+}
+}
+#feedback{
+    width: 100%;
+    padding: 220px 0px 120px 0px;
+    background: url(../img/map.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#feedback h1{
+    text-align: center;
+   font-size: 52px; 
+    color: white;
+}
+#feedback form{
+    width: 800px;
+    margin: 120px auto 0px auto;
+}
+#feedback form .input{
+    display: flex;
+    justify-content: space-between
+}
+#feedback form .input input{
+    width: 260px;
+    padding: 10px 0px 10px 30px;
+    border: none;
+    background-color: none;
+    font-size: 17px;
+}
+#feedback form  .phone{
+    width: 100%;
+    padding: 10px 0px;
+    width: 500px;
+    margin: 120px auto;
+    display: block;
+}
+#feedback form input[type='submit']{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 260px;
+    padding: 16px 0px; 
+    font-size: 18px;
+    border:none;
+    background-color: #ebb402;
+    font-weight: bold;
+}
+@media screen and (max-width: 842px){
+    #feedback form{
+        width: 650px;
+    }
+    #feedback form .input input{
+        width: 210px;
+    }
+}
+@media screen and (max-width: 700px){
+    #feedback form{
+        width:90%;
+    }
+    #feedback form .input input{
+        width: 210px;
+    }
+    #feedback{
+        padding: 120px 0px 50px;
+    }
+    #feedback form .input{
+       display: inherit;
+    }
+    #feedback form .input input{
+        display: block;
+        width: 100%;
+        margin:30px auto;
+    }
+    #feedback form input[type='submit']{
+        width: 100%
+    }
+}
+footer p{
+    padding: 20px 0px 20px 0px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
