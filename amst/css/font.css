@@ -1,0 +1,15 @@
+
+@font-face{
+    font-family:"FEL";
+    src:url('../fonts/FiraSans-ExtraLight.ttf');
+    font-weight:normal;
+    font-style:normal;
+    
+}
+@font-face{
+    font-family:"NSB";
+    src:url("../fonts/NotoSans-Bold.ttf");
+    font-weight:bold;
+    font-style:normal;
+    
+}
