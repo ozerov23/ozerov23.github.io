@@ -1,0 +1,811 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, {
+	display: block;
+}
+body {
+	margin: 0px;
+}
+*{
+    box-sizing: border-box;
+	font-family:"Rubik-Regular";
+}
+.mbg{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+}
+#modal{
+    width: 500px;
+    height: 550px;
+    box-shadow: 0px 10px 12px 2px #B9B9B9;
+    position: fixed;
+    z-index: 10;
+    top: 20%;
+    left: 50%;
+    margin-left: -250px;
+    background-color: white;
+    display: none;
+}
+#modal span{
+    width: 24px;
+    height: 24px;
+    float: right;
+    cursor: pointer;
+}
+#modal h1{
+    clear: both;
+    text-align: center;
+    font-size: 31px;
+    margin-top: 60px;
+}
+#modal form{
+    width: 400px;
+    margin: 40px auto 0px auto;
+}
+#modal form input{
+    float: none;
+    width: 100%;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 10px;
+}
+#modal form textarea{
+    resize: none;
+    width: 100%;
+    height: 100px;
+     
+}
+#modal form input[type='submit']{
+    display: block;
+    width: 300px;
+    background-color:#7395EE;
+    color: white;
+    border: none;
+    margin: 40px auto;
+    padding: 20px 0px 20px 0px;
+    border-radius: 23px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:533px){
+    #modal{
+        width: 400px;
+        left: 60%;
+    }
+    #modal form{
+        width: 300px;
+    }
+}
+@media screen and (max-width:456px){
+    #modal{
+        width: 100%;
+        left: 0;
+        margin-left: 0px;
+    }
+    #modal form{
+        width: 300px;
+    }
+}
+/*==# block1==*/
+nav{
+    width: 100%;
+	border-bottom: 1px solid #D8D8D8;
+	padding: 20px 0px 20px 0px;
+    background-color: white;
+    overflow: hidden;
+    z-index: 1;
+}
+nav>img.logo{
+	float: left;
+	margin: 0px 0px 0px 150px;
+}
+nav .menu1{
+	list-style: none;
+	float: right;
+	margin: 14px 120px 0px 0px;
+}
+nav .menu1 li{
+	float: left;
+	cursor: pointer;
+	margin-right: 20px;
+   
+}
+nav .menu1 li a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid white;
+    font-weight: normal;
+    -webkit-transition:border-bottom 500ms ease;
+    -o-transition:border-bottom 500ms ease;
+    -ms-transition:border-bottom 500ms ease;
+}
+nav .menu1 li .h_b:hover {
+    border-bottom: 2px solid black;
+}
+nav .menu1 li a.bor{
+    border-bottom: 2px solid black;
+}
+.fix{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/*nav .menu1 :hover{
+	
+	border-bottom: 2px solid black;
+}*/
+nav .menu1 li.last{
+	margin-right: 0px;
+}
+nav .button{
+	width: 200px;
+	display: none;
+     cursor: pointer;
+}
+nav .button img{
+	 margin: auto;
+}
+nav .button .menu2{
+	list-style: none;
+	display: none;
+	width: 100%;
+   
+}
+nav .button .menu2 li{
+    cursor: pointer;
+    
+    
+}
+nav .menu2 li a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid white;
+    font-weight: normal;
+    -webkit-transition:background-color 500ms ease;
+    -o-transition:background-color 500ms ease;
+    -ms-transition:background-color 500ms ease;
+    
+}
+nav .menu2 li a:hover{
+    background-color: #000000;
+    color: white;
+}
+@media screen and (max-width:1140px){
+    
+    nav img.logo{
+       margin-left: 100px;
+    }
+    nav .menu1{
+       margin-right: 80px;
+    }
+
+}
+@media screen and (max-width:960px){
+    
+    nav img.logo{
+        margin: auto;
+        display: block;
+        float:none; 
+    }
+    nav .menu1{
+        display: none;
+    }
+    nav .button{
+        display: block;
+        margin: 12px auto 0px auto; 
+    }
+    nav .button img{
+        width: 35px;
+        height: 35px;
+        margin: auto;
+        display: block;
+    }
+    nav .button .menu2 {
+       
+    }
+    nav .button .menu2 li{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+/*==# block2==*/
+header{
+    width: 100%;
+	background: url(../img/bg-1.jpg) no-repeat;
+	background-size: cover;
+}
+header .bg{
+	background-color: rgba(255,255,255,.2);
+	padding: 190px 0px 200px 0px;
+}
+header .bg form{
+	width:880px;
+	overflow: hidden;
+	margin: auto;
+}
+header .bg form h1{
+	text-align: center;
+	font-size: 40px;
+    margin-bottom: 40px;
+	color: white;
+}
+header .bg form h1 span{
+	color:black;
+}
+header .bg form p{
+    text-align: center;
+	color: white;
+	margin: 20px 0px 70px 0px;
+	font-size: 18px;
+}
+header .bg form a{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	width: 300px;
+	padding: 20px;
+	font-size: 26px;
+	color: black;
+	background:#E0E0E0;
+    border-radius: 50px;
+    margin: auto;
+}
+
+@media screen and (max-width:960px){
+    header .bg{
+        padding-bottom: 100px;
+    }
+    header .bg form{
+       width: 90%;
+    }
+    header .bg form h1{
+        font-size: 35px;
+    }
+    header .bg form a{
+        margin-top: 100px;
+    }
+}
+
+
+
+
+/*==# block3==*/
+#catalog{
+    width: 100%;
+    overflow: hidden;
+    padding: 120px 0px 0px 0px;
+}
+#catalog>h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+#catalog .wrapper{
+    width: 850px;
+    margin: auto;
+    height: 1000px;
+}
+#catalog .wrapper .product{
+    padding-top: 40px;
+    width: 400px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 50px;
+    border:2px solid #DBDBDB;
+    border-radius: 6px;
+}
+#catalog .wrapper .mar{
+    margin-right: 50px;
+}
+#catalog .wrapper .product:hover{
+    box-shadow: 0px 10px 12px 2px #B9B9B9;
+}
+
+#catalog .wrapper .product .win{
+    height: 400px;
+    width: 100%;
+}
+#catalog .wrapper .product .win img{
+width: 396px;
+}
+#catalog .wrapper .product  .images{
+    height: 60px;
+    width: 270px;
+    margin: auto
+}
+#catalog .wrapper .product  .images img{
+    cursor: pointer;
+}
+#catalog .wrapper .p2  .images,#catalog .wrapper .p4 .images{
+    width: 200px;
+}
+#catalog .wrapper .p3  .images{
+    width: 130px;
+}
+#catalog .wrapper .product .images .img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.bor_img{
+    border: 1px solid black;
+}
+#catalog .wrapper .product .images img{
+    width: 58px;
+}
+#catalog .wrapper .product .images .last{
+    margin-right: 0px;
+}
+#catalog .wrapper .product h1{
+    text-align: center;
+    font-size: 31px;
+}
+#catalog .wrapper .product p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+#catalog .wrapper .product ul{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 233px;
+    list-style: none;
+    display: none;
+}
+#catalog .wrapper .product ul li{
+    padding: 5px 0px 5px 0px;
+}
+#catalog .wrapper .product a{
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    padding: 20px 0px 20px;
+    background-color: #DADADA;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+#catalog .wrapper .product a.first{
+    width: 180px;
+    margin-right: -5px;
+    background-color: #7395EE;
+    color: white;
+}
+#catalog .wrapper .product a.last{
+    background-color:#C7EAFE;
+    width: 110px;
+    color:#0B335B;
+}
+#catalog .wrapper .product .button{
+    width: 300px;
+    margin: auto;
+}
+@media screen and (max-width:960px){
+    #catalog .wrapper{
+             width: 680px;
+    }
+    #catalog .wrapper .product{
+            width: 325px;
+    }
+    #catalog .wrapper .product{
+        
+    }
+    #catalog .wrapper .product .win{
+        width: 100%;
+    }
+    #catalog .wrapper .mar{
+    margin-right: 30px;
+    }
+    #catalog .wrapper .product .win img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:729px){
+    #catalog .wrapper{
+             width: 400px;
+    }
+    #catalog .wrapper .product{
+          width: 100%;
+    }
+    #catalog .wrapper .product{
+        
+    }
+    #catalog .wrapper .product .win{
+      
+    }
+    #catalog .wrapper .mar{
+        margin-right: 0px;
+    }
+    #catalog .wrapper .product .win img{
+     
+    }
+}
+@media screen and (max-width:540px){
+    #catalog .wrapper{
+             width: 80%;
+    }
+    #catalog .wrapper .product{
+          width: 100%;
+    }
+    #catalog .wrapper .product{
+        
+    }
+    #catalog .wrapper .product .win{
+      
+    }
+    #catalog .wrapper .mar{
+        margin-right: 0px;
+    }
+    #catalog .wrapper .product .win img{
+     
+    }
+}
+/*===# block 4===*/
+#compatibility{
+    width: 100%;
+    margin-top: 130px;
+    overflow: hidden;
+    background: url(../img/bg-2.png) no-repeat;
+    background-size: cover
+}
+#compatibility .bg{
+    overflow: hidden;
+    background-color: rgba(255,255,255,.5);
+}
+#compatibility .bg>h1{
+    text-align: center;
+    font-size: 39px;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 110px;
+    
+}
+#compatibility .device{
+    margin: auto;
+    width: 760px;
+    overflow: hidden;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+#compatibility .device div{
+   
+
+}
+#compatibility .device .img1{
+    width: 120px;
+    padding-top: 97px;
+}
+#compatibility .device .img2{
+  width: 150px;
+  padding-top: 34px;
+}
+#compatibility .device .img3{
+  width: 220px;
+}
+#compatibility .device div p{
+    width: 100%;
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+@media screen and (max-width:960px){
+    #compatibility{
+        margin-top: 0px;
+    }
+    #compatibility .bg>h1{
+        width: 90%;
+    }
+    #compatibility .device{
+    width: 650px;
+    }
+   
+}
+@media screen and (max-width:720px){
+    #compatibility .device{
+        flex-direction: column;
+        width: 100%;
+    }
+    #compatibility .device div{
+       margin: auto;
+    }
+    #compatibility .device .img1{
+        padding-top: 0px;
+    }
+    #compatibility .device .img2{
+         margin-bottom: 40px;
+    }
+    #compatibility .device .img3{
+      width: 220px;
+    }
+}
+/*===# block 5===*/
+#work{
+     overflow: hidden;
+     padding-bottom: 120px;
+}
+#work>h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 42px;
+}
+#work .wrapper{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#work .wrapper .w{
+    width: 275px;
+    overflow: hidden;
+}
+#work .wrapper .w img{
+    margin: auto;
+    display: block;
+}
+#work .wrapper .w h1{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 15px;
+}
+#work .wrapper .last{
+    margin-right: 0px;
+}
+@media screen and (max-width:1140px){
+    #work>h1{
+        margin-top: 50px;
+    }  
+
+    #work .wrapper{
+        width: 95%;
+        margin-top: 90px;
+    }
+}
+@media screen and (max-width:960px){
+    #work .wrapper{
+        width: 99%;
+    }
+    #work .wrapper .w{
+        width: 180px;
+    }
+    #work .wrapper .w h1{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:770px){
+    #work .wrapper{
+        width: 99%;
+    }
+    #work .wrapper .w{
+        width: 150px;
+    }
+    #work .wrapper .w h1{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:720px){
+    #work{
+        padding-bottom: 70px;
+    }
+    #work .wrapper{
+        width: 99%;
+        flex-direction: column;
+    }
+    #work .wrapper .w{
+        width: 400px;
+        margin: 0px auto 40px auto;
+     
+    }
+    #work .wrapper .w:last-child{
+        margin-bottom: 0px;
+    }
+    #work .wrapper .w h1{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:540px){
+    #work .wrapper .w{
+        width: 100%
+    }
+}
+/*===# block 6===*/
+#reviews{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 120px;
+    background: url(../img/bg-3.jpg);
+    background-size: cover;
+}
+#reviews .bg{
+    overflow: hidden;
+    background-color: rgba(000,000,000,.2);
+    padding-bottom: 120px;
+}
+#reviews>h1{
+    text-align: center;
+    font-size: 43px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+#reviews .wrapper{
+    width: 700px;
+    height: 320px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+#reviews .wrapper .line{
+ 
+    overflow: hidden;
+    position: relative;
+    top:0;
+    left: 0;
+}
+#reviews .wrapper .line .item{
+   
+    float: left;
+}
+#reviews .wrapper img{
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+}
+#reviews .wrapper h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#reviews .wrapper p{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+
+#reviews .nav{
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#reviews .nav input[type="radio"]{
+    display: none;
+}
+#reviews .nav label{
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 1px solid black;
+    float: left;
+    border-radius: 25px;
+}
+#reviews .nav .s1,#reviews .nav .s2{
+    margin-right: 20px
+}
+#reviews .nav input:checked+label{
+    background-color: black;
+}
+@media screen and (max-width:720px){
+    #reviews .wrapper{
+        width: 100%;
+    }
+}
+@media screen and (max-width:720px){
+    #reviews{
+        padding-bottom: 50px;
+    }
+    #reviews .wrapper{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+#form{
+    width: 100%;
+    overflow:hidden;
+}
+#form h1{
+    text-align: center;
+    font-size: 52px;
+    margin-top: 120px;
+}
+#form form{
+    width:1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+#form form .input{
+    display: flex;
+    justify-content: space-between
+}
+#form form .input input[type="text"]{
+   width: 300px;
+   height: 35px;
+   display: block;
+   border: 2px solid #D1D1D1;
+   border-radius: 4px;
+   font-size: 16px;
+   padding-left: 12px;
+}
+
+#form form textarea{
+    resize: none;
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+    border-radius: 4px;
+    border: 1px solid #D1D1D1;
+}
+#form form input[type="submit"]{
+    display: block;
+    clear: both;
+    width: 300px;
+     background-color: #7395EE;
+    border: none;
+    margin: 40px auto;
+    padding: 20px 0px 20px 0px;
+    border-radius: 23px;
+    font-size: 20px;
+    color: white;
+}
+@media screen and (max-width:1040px){
+    #form form{
+        width: 94%;
+    }
+    #form form .input input[type="text"]{
+        width: 280px;
+        
+    }
+}
+@media screen and (max-width:960px){
+    #form form{
+        width: 94%;
+    }
+    #form form .input {
+         flex-direction: column;
+        
+    }
+    #form form .input input[type="text"]{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    #form form .input input:last-child{
+        margin-bottom: 0px;
+    }
+}
+footer{
+    
+    border-top: 1px solid #D8D8D8;
+}
+footer p{
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
