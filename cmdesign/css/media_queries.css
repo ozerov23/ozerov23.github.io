@@ -1,0 +1,603 @@
+
+@media screen and (max-width:1267px){
+    /*#7*/
+    #work2 .wrapper{
+    width: 1000px;
+    overflow: hidden;
+    margin: 100px auto 0px auto;
+    } 
+    #work2 .wrapper .item{
+        width: 200px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1101px){
+    #sentence .wrapper .items .item ul{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:1100px){
+    /*=5=*/
+    #sentence .wrapper{
+    width: 500px;
+    overflow: hidden;
+    margin: auto;
+   }
+    #sentence .wrapper .items .item{
+        width: 300px;
+        height:inherit;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    #sentence .wrapper .items .item ul{
+        display: none;
+    }
+    #sentence .wrapper .items .item h1{
+        font-size: 23px;
+    }
+    #sentence .wrapper .items .item img{
+        width: 100px;
+        margin-top: 10px;
+    }
+    #sentence .wrapper .items .item .button1,
+    #sentence .wrapper .items .item .button2,
+    #sentence .wrapper .items .item .button3{
+        display: block;
+    }
+    #sentence .wrapper .items .item:nth-of-type(1n+2){
+    margin-left: 0px;
+   }
+     #sentence .wrapper .items .item:nth-of-type(1n+2){
+     margin-left: 0px;
+     height: inherit;
+   
+    }
+    #sentence .wrapper .items .item{
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    #sentence .wrapper .arrow{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1080px){
+    /*=4=*/
+    #portfolio .wrapper{
+        width: 750px;
+        
+    }
+    #portfolio .background{
+        display: none;
+    }
+    #portfolio .background .zoom{
+        width: 0px;
+        height: 0px;
+    }
+  
+    #portfolio .wrapper .row .item{
+        width: 250px;
+    }
+    
+    
+}
+
+@media screen and (max-width:1030px){
+    /*#6*/
+    #work .wrapper{
+        width: 700px;
+    }
+    #work .wrapper .row .item{
+        width: 350px;
+    }
+    #work .wrapper .row .item h1{
+        width: 220px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    #work .wrapper .row .item:nth-of-type(2n+1){
+    margin-right: 0px;
+   }
+    /*#7*/
+    #work2 .wrapper{
+    width: 500px;
+    overflow: hidden;
+    margin: 100px auto 0px auto;
+    } 
+    #work2 .wrapper .item{
+        width: 250px;
+    }
+}
+
+
+
+@media screen and (max-width:990px){
+     /*#2*/
+    nav .wrapper{
+        width: 100%;
+    }
+    nav .wrapper ul{
+        display: none;
+    }
+    nav .wrapper .img-1{
+        margin-left: 40px;
+    }
+    nav .wrapper .phones{
+        float: right;
+        margin-right: 40px;
+    }        
+    nav .wrapper .menu2{
+        display: block;
+    }
+    nav .wrapper .img-2{
+        display: block;
+        float: right;
+        overflow: hidden;
+        margin-top: 15px;
+        margin-right: 40px;
+    }
+    /*==#3==*/
+    #advanced_about .wrapper{
+        width:800px;
+    }
+   
+    #advanced_about .wrapper .advanced .item:nth-of-type(1n+2){
+        margin-left: 33px;
+   }
+    #advanced_about .wrapper .advanced .item p{
+        font-size: 14px;
+    }
+    #advanced_about .advanced2{
+        width: 385px;
+    }
+    #advanced_about .advanced2 .item{
+        margin-top: 5px;
+    }
+    #advanced_about .advanced2 .item:nth-of-type(1n){
+    margin-left: 0px;
+    }
+    #advanced_about .advanced2 .item:nth-of-type(2n){
+    margin-left: 4px;
+    }
+    
+}
+@media screen and (max-width:940px){
+      /*#9*/
+    #contacts .wrapper{
+        width: 600px;
+    }
+    #contacts .wrapper .map{
+        width: 270px;
+    }
+    #contacts .wrapper .contact{
+        width: 300px;
+    }
+    #contacts .wrapper .contact h1{
+        font-size: 41px;
+    }
+    #contacts .wrapper .contact .phones h2{
+    font-size: 20px;
+    }
+    #contacts .wrapper .contact .phones p{
+    font-size: 20px;
+    }
+    #contacts .wrapper .contact .d-w h2{
+    font-size: 20px;
+    }    
+    #contacts .wrapper .contact .d-w p{
+    font-size: 20px;
+    }
+    #contacts .wrapper .contact .email1 h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    }
+    #contacts .wrapper .contact .email1 p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+}
+
+
+@media screen and (max-width:818px){
+    /*#3*/
+    #advanced_about .wrapper{
+        width:300px;
+        margin: auto;
+    }
+   
+    #advanced_about .wrapper .advanced .item{
+       float: none;
+       
+   }
+   #advanced_about .wrapper .advanced .item:nth-of-type(1n+2){
+        margin-left:0px;
+        margin-top: 40px;
+   } 
+   
+    #advanced_about  .about{
+        width: 90%;
+        padding: 40px 50px;
+    } 
+    #advanced_about  .about h1{
+        font-size: 32px;
+    }    
+    
+}
+
+
+@media screen and (max-width:800px){
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    /*#1*/
+    header{
+        height: 500px;
+    }
+    header .slider .win{
+        padding-top: 210px;
+    }
+    header .content{
+        top:-62px;
+    }
+    header h1{
+       float: none;
+       margin: auto;
+       
+       width: 500px;
+    }
+    header .content .navigation{
+    padding-left: 20px;
+    }
+    
+    
+}
+@media screen and (max-width:820px){
+    /*=4=*/
+    #portfolio .wrapper{
+        width: 500px;
+    }
+    #portfolio .wrapper .row .item{
+        float: none;
+        width: 100%;
+    }
+    
+    
+}
+
+@media screen and (max-width:760px){
+    /*#6*/
+    #work .wrapper{
+        width: 350px;
+    }
+    #work .wrapper .row .item{
+        width: 350px;
+        float: none;
+    }
+    #work .wrapper .row .item h1{
+        width: 220px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    #work .wrapper .row:nth-of-type(1n+2){
+           margin-top: 0px;
+    }    
+    #work .wrapper .row .item:nth-of-type(1n+1){
+    margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:740px){
+    /*8*/
+    #partners .wrapper{
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 40px;
+    }
+    #partners .wrapper .row .partner1{
+          width: 200px;
+    }
+    #partners .wrapper .row .partner2{
+          width: 150px;
+    }
+    #partners .wrapper .row .partner3{
+          width: 150px;
+    }
+    #partners .wrapper .row .partner4{
+          width: 250px;
+    }
+    #partners .wrapper .row .partner5{
+          width: 100px;
+    }
+    #partners .wrapper .row .partner6{
+          width: 150px;
+    }
+    #partners .wrapper .row .partner7{
+          width: 100px;
+    }
+    #partners .wrapper .row .partner8{
+          width: 150px;
+    }
+    #partners .wrapper .row .partner9{
+          width: 200px;
+    }
+}
+@media screen and (max-width:640px){
+
+     /*#9*/
+    #contacts .wrapper{
+        width: 300px;
+    }
+    #contacts .wrapper .map{
+        width: 270px;
+        width: 100%
+    }
+    #contacts .wrapper .logo{
+        width: 100%
+    }
+    #contacts .wrapper img{
+        width: 100%
+    }
+    #contacts .wrapper .contact{
+        width: 300px;
+        margin-right: 0px;
+    }
+    #contacts .wrapper .contact h1{
+        font-size: 41px;
+    }
+    #contacts .wrapper .contact .phones h2{
+    font-size: 20px;
+    }
+    #contacts .wrapper .contact .phones p{
+    font-size: 20px;
+    }
+    #contacts .wrapper .contact .d-w h2{
+    font-size: 20px;
+    }    
+    #contacts .wrapper .contact .d-w p{
+    font-size: 20px;
+    }
+    #contacts .wrapper .contact .email1 h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    }
+    #contacts .wrapper .contact .email1 p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+}
+@media screen and (max-width:618px){
+    header .slider .win{
+        padding-top: 130px;
+    }
+      header h1{
+       width: 100%;
+       text-align: center;
+     
+    }
+    
+}
+@media screen and (max-width:608px){
+     /*#1*/
+    header .content{
+        
+    }
+
+}
+@media screen and (max-width:605px){
+     /*#1*/
+    header .content{
+      
+    }
+
+}
+@media screen and (max-width:578px){
+    nav .wrapper .phones{
+        clear: both;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }  
+}
+@media screen and (max-width:556px){
+    /*#2*/    
+    nav .wrapper .img-2{
+        display: block;
+        float: right;
+        overflow: hidden;
+        margin-right: 100px;  
+        margin-top: 15px;
+    }
+    nav .wrapper .img-1{
+        margin-left: 12px;
+    }
+    nav .wrapper .img-2{
+        margin-right: 12px;
+    }
+    /*==#3==*/
+    
+     #advanced_about{
+        padding-top: 100px;
+    }
+    /*=4=*/
+    #portfolio .wrapper{
+        width: 95%;
+    }
+    #portfolio .zoom{
+        width: 90%;
+        margin-left: -45%;
+    }
+    #portfolio .wrapper .row .item{
+        float: none;
+        width: 100%;
+    }
+    /*=5=*/
+    #sentence .wrapper{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+   }
+    #sentence .wrapper .items .item{
+        width: 100%;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width:553px){
+    /*#7*/
+    #work2 .wrapper{
+    width: 200px;
+    overflow: hidden;
+    margin: 100px auto 0px auto;
+    } 
+    #work2 .wrapper .item{
+        width: 200px;
+    }
+    #work2 .bg h1{
+        font-size: 43px;
+    }
+    
+}
+
+@media screen and (max-width:530px){
+     /*8*/
+    #partners .wrapper{
+    width: 350px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 40px;
+    }
+    #partners .wrapper .row .partner1{
+          width: 100px;
+    }
+    #partners .wrapper .row .partner2{
+          width: 100px;
+    }
+    #partners .wrapper .row .partner3{
+          width: 150px;
+    }
+    #partners .wrapper .row .partner4{
+          width: 150px;
+    }
+    #partners .wrapper .row .partner5{
+          width: 100px;
+    }
+    #partners .wrapper .row .partner6{
+          width: 100px;
+    }
+    #partners .wrapper .row .partner7{
+          width: 100px;
+    }
+    #partners .wrapper .row .partner8{
+          width: 100px;
+    }
+    #partners .wrapper .row .partner9{
+          width: 100px;
+    }
+    
+}
+@media screen and (max-width:496px){
+      /*#1*/
+  
+    
+}
+
+@media screen and (max-width:444px){
+    /*==#3==*/
+    #advanced_about .advanced2{
+        width: 212px;
+        height: inherit;
+    }
+    #advanced_about .advanced2 .item:nth-child(2n){
+        margin-left: 0px;
+    
+    }
+    #advanced_about .advanced2 .item{
+        width: 100%;
+        float: none;
+    }
+    
+}
+@media screen and (max-width:400px){
+     /*8*/
+    #partners .wrapper{
+     width: 90%;
+    }
+    #partners .wrapper .row div{
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    
+}
+@media screen and (max-width:380px){
+    /*#6*/
+    #work>h1{
+        font-size: 32px;
+    }
+    #work .wrapper{
+        width: 100%
+    }
+    #work .wrapper .row{
+        width: 100%;
+    }
+    #work .wrapper .row .item{
+        width: 100%
+    }
+    #work .wrapper .row .item img{
+       float: none;
+       margin: auto;
+    }
+    #work .wrapper .row .item h1{
+        float: none;
+        margin-left: 0px;
+        text-align: center;
+        width:inherit;
+
+    }
+}
+@media screen and (max-width:345px){
+     /*#1*/
+    header .content{
+       
+    }
+    
+}
+@media screen and (max-width:345px){
+     /*#1*/
+    header .content{
+       
+    
+    
+    }
+    
+}
+@media screen and (max-width:317px){
+    /*#7*/
+    #work2 .wrapper2{ 
+        width: 100%;
+    }
+}
