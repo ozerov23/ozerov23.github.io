@@ -17,11 +17,112 @@ body {
 *{
     box-sizing: border-box;
 }
+#modal1,#modal2,#modal3{
+    width: 500px;
+    height: 200px;
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    border-top:43px solid rgba(32, 74, 108);
+    display: none;
+}
+
+#modal1 h1,#modal2 h1,#modal3 h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+#modal1 p,#modal2 p,#modal3 p{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(32, 74, 108);;
+    color: white;
+    font:18px sans-serif;
+    cursor: pointer;
+}
+#modal2{
+    height: 350px;
+    font-family: sans-serif;
+    
+}
+#modal2 span,#modal3 span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: -41px;
+    float: right;
+    cursor: pointer;
+}
+#modal2 input,#modal3 input{
+    display: block;
+    width: 300px;
+    margin: auto; 
+    border: none;
+  border-bottom: 2px solid rgb(32, 74, 108);
+    font-size: 17px;
+     font-family: sans-serif;
+} 
+#modal2 textarea{
+    width: 300px;
+    height: 80px;
+    resize: none;
+    margin:20px auto;
+    display: block;
+    padding: 5px;
+    font-size: 17px;
+     font-family: sans-serif;
+    
+}
+#modal2 input:focus,#modal3 input:focus{
+     outline: none;
+}
+#modal3{
+   
+    height: 250px;
+}
+#modal3 p{
+    margin-top: 20px;
+}
+@media screen and (max-width:564px){
+    #modal1 , #modal2,#modal3{
+        width: 90%;
+    }
+    
+}
+#addr{
+  background-color: #1c2026;
+}
+#addr p{
+    padding: 10px 0px 10px 130px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+#addr p a{
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+@media screen and (max-width:880px){
+    #addr p{
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px
+    }
+}
+
 header{
     background: url(../img/olds.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 700px;
+  
 }
 header .bg{
     background-color: rgba(32, 74, 108,.9);
@@ -29,52 +130,107 @@ header .bg{
     padding-bottom: 125px;
 }
 header .wrapper{
-    width: 1000px;
+    width: 100%;
     margin: auto;
     padding-top: 30px;
 }
 header .wrapper .info{
-    overflow: hidden;
-    margin-bottom: 70px;
+    width: 100%;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-around
 }
 header .wrapper .info img{
-    width: 250px;
-    float: left;
+    width: 400px;
+    height: 70px;
+    display: block;
+   
 }
-header .wrapper .connect{
-    float: right;
-    width: 500px;
+header .wrapper .info .con{
+    width: 440px;
+    display: flex;
+    height: 37px;
+    margin-top: 28px;
 }
-header .wrapper .connect *{
-   float: left;
-   padding:40px 15px 0px 15px;
-   display: block;
-   text-decoration: none;
-   color: white;
-   font-family: sans-serif;
+header .wrapper .info .con p{
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    height: 37px;
 }
+header .wrapper .info .con p:nth-child(1),header .wrapper .info .con p:nth-child(2){
+    cursor: pointer;
+}
+
+header .wrapper .l_s{
+    width: 1000px;
+    margin: auto;
+}
+header .wrapper .l_s>h1{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 43px;
+    color: white;
+
+}
+header .wrapper .l_s>h1:nth-child(2){
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+header .wrapper .l_s  .wr{
+    display: flex;
+    width: 100%;
+}
+header .wrapper .l_s  .wr .item h1{
+    text-align: center;
+    font:35px sans-serif;
+    color: #ffffff;
+}
+header .wrapper .l_s  .wr p{
+    padding: 10px;
+    font-family: sans-serif;
+    color: #ffff;
+    margin: auto;
+    text-align: center;
+}
+header .wrapper .l_s p span{
+   font-size: 25px;
+   text-align: center
+}
+#DC:hover,#DQ:hover{
+    background-color: #ffffff;
+    border-radius: 30px;
+    color: #000000;
+}
+
 header .bg .wrapper .test{
     width: 600px;
     background-color: #ffffff;
     border-top:17px solid rgb(32, 74, 108);
     border-bottom:17px solid rgb(32, 74, 108);
     border-radius: 10px 10px 0px 0px;
+    margin: 70px auto 0px;
 }
 
 header .wrapper .test h1{
     font-family: sans-serif;
-    padding:20px 0px 0px 20px;
-    font-size: 30px;
+    padding:20px 0px 0px 0px;
+    text-align: center;
+    font-size: 24px;
 }
+
 header .wrapper .test .button{
     padding-top: 12px;
 }
+
 header .wrapper .test label{
      font: 16px sans-serif;
     font-weight: bold;
 }
 header .wrapper .test .button p,header .wrapper .test .button_end p{
-    font: 14px sans-serif;
+    font: 18px sans-serif;
     padding-left: 20px;
     font-weight: bold;
 }
@@ -82,17 +238,17 @@ header .wrapper .test .button_end p{
     padding-top: 20px;
     font-size: 18px;
 }
-header .wrapper .test  button{
+header .wrapper .test  button,header .wrapper .test input[type="submit"]{
     width: 200px;
     background-color: transparent;
     border: none;
-    margin-left: 20px;
-    margin-top: 40px;
+    display: block;
     padding: 15px 0px 15px 0px;
     font-size: 20px;
     background-color: rgb(32, 74, 108);
     color: #ffffff;
     cursor: pointer;
+    margin: 40px auto 0px;
 }
 header .wrapper .test  button:focus{
     outline: none;
@@ -114,7 +270,7 @@ header .wrapper .test .question h1{
 header .wrapper .test .question input[type="text"],.button_end input[type="text"]{
     display: block;
     margin-left: 20px;
-    margin-top: 22px;
+    margin-top: 10px;
     width: 300px;
     border: none;
     border-bottom: 2px solid rgb(32, 74, 108);
@@ -152,90 +308,85 @@ header .wrapper .test .question .ch input[type="radio"]:checked+span{
 header .wrapper .test .question,header .wrapper .test .button_end{
     display: none;
 }
-@media screen and (max-width:1035px){
-    header .wrapper{
-        width: 700px;
+@media screen and (max-width:1100px){ 
+    
+    header .wrapper .info{
+       padding: 0px;
+      
     }
-    header .wrapper .info img{
-        width: 200px;
-    }
-    header .wrapper .connect *{
-        padding: 30px 20px 0px 20px;
-    }
-}
-@media screen and (max-width:720px){
-    header {
-        height: 800px;
-    }
-    header .wrapper{
-        width: 100%;
-    }
-     header .wrapper .info img{
-        width: 200px;
-         float: none;
-         display: block;
-         margin: auto;
-    }
-    header .wrapper .info .connect{
-        float: none;
-        overflow: hidden;
-        margin: auto;
-    }
-    header  .bg .wrapper .test{
-        margin: auto;
-        width: 90%;
+    header .wrapper .info{
+        flex-direction: column;
         
     }
-    header  .bg .wrapper .test .question .ch{
-        margin: 0px;
-        width: 90%;
+    header .wrapper .info .con{
+        flex-direction: column;
+        height: inherit;
+    }
+    header .wrapper .l_s{
+        width: 100%;
+    }
+    header .wrapper .l_s .wr{
+        flex-direction: column;
+    }
+    header .wrapper .info .con{
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+    header .wrapper .info *{
         margin: auto;
     }
-    header  .bg .wrapper .test .question .ch input[type="text"]{
+    header .wrapper .info .addr{
+        margin-top: 25px;
+    }
+    header .wrapper .info .addr p{
+        text-align: center;
+        
+    }
+   
+}
+@media screen and (max-width:700px){
+   
+     header .wrapper .info img{
+        width: 80%;
+        height: 86px;
+    }
+    header .wrapper .info .con{
         width: 100%
     }
-}
-@media screen and (max-width:639px){
-    header {
-        height: 850px;
+    header  .bg .wrapper .test {
+        width: 95%;
     }
-    header .wrapper .info .connect{
-       width: 100%; 
+     header .bg .wrapper .test .question h1{
+    width: 100%;
+    font-size: 22px;
     }
-    header .wrapper .info .connect *{
-        float: none;
-        padding-left: 0px;
-        padding-right: 0px;
-        text-align: center;
-    }
-    header  .bg .wrapper .test .question h1{
-        width: 100%;
+    header .bg .wrapper .test .question input[type="text"]{
+        margin: 10px  auto 0px;
     }
 }
-@media screen and (max-width:573px){
-    header{
-        height: 950px;
+@media screen and (max-width:517px){
+    header .wrapper .info img{
+        width: 80%;
+        height: 76px;
     }
-    header  .bg .wrapper .test .question input[type="text"]{
-        width:90%;
-        margin:10px auto;
-        
-    }
-    header  .bg .wrapper .test .question .ch input[type="text"]{
-        width:90%;
-        margin:10px auto;
-        display: block;
-    }
-    header  .bg .wrapper .test .question button{
-        width: 90%;
-        margin: auto;
-        margin-top: 40px;
-        display: block;
-    }
+    
+    
 }
 #spore{
-    padding-top: 40px;
+    padding-top: 120px;
+    padding-bottom: 60px;
     width: 100%;
+}
+#spore>a{
+    display: block;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    font: 17px sans-serif;
+    color: white;
+    background-color: #587fb0;
 }
 #spore>h1{
     text-align: center;
@@ -264,7 +415,7 @@ header .wrapper .test .question,header .wrapper .test .button_end{
     margin-bottom: 50px;
     margin-top: 10px;
 }
-#spore .wrapper1 .items:nth-child(2) .item{
+#spore .wrapper1 .items:nth-child(1) .item{
     display: flex;
      justify-content: space-between;
 }
@@ -381,15 +532,18 @@ header .wrapper .test .question,header .wrapper .test .button_end{
     width: 1000px;
     margin: auto;
 }
-#comments .wrapper>h1{
+#comments>h1{
     text-align: center;
     padding: 20px;
-    font-size: 27px;
     font-family: sans-serif;
+    font-size: 34px;
+    color: white;
+    background-color: #587fb0;
 }
 #comments>.wrapper .items{
     display: flex;
     justify-content:space-around;
+    margin-top: 50px;
 }
 #comments>.wrapper .items .item{
     width: 300px;
@@ -479,8 +633,11 @@ header .wrapper .test .question,header .wrapper .test .button_end{
     text-align: center;
     font-size:34px;
     font-family: sans-serif;
-    width: 80%;
-    margin: auto;
+    padding: 30px 0px;
+    margin: 0px auto  70px auto;
+    font-size: 34px;
+    color: white;
+    background-color: #587fb0;
 }
 #text p{
     width: 60%;
@@ -509,7 +666,7 @@ header .wrapper .test .question,header .wrapper .test .button_end{
     color: #ffff;
     margin: 10px auto;
 }
-#text div.descr p:nth-child(9){
+#text div.descr p:nth-child(8){
     text-align: center;
 }
 
@@ -528,10 +685,18 @@ header .wrapper .test .question,header .wrapper .test .button_end{
 }
 #count .wrapper{
     width: 700px;
-    margin: auto;
+    margin: 70px auto;
+    overflow: hidden;
 }
 #count .wrapper .item{
-    margin: 40px;
+    width: 300px;
+
+}
+#count .wrapper .item:nth-child(1){
+    float: left;
+}
+#count .wrapper .item:nth-child(2){
+    float: right;
 }
 #count .wrapper .item h1{
     
@@ -555,7 +720,7 @@ header .wrapper .test .question,header .wrapper .test .button_end{
     list-style: decimal;
     padding: 20px;
     display: none;
-    width: 380px;
+    width: 300px;
     margin:0px auto 0px;
 }
 #count .wrapper .item ul li{
@@ -584,12 +749,16 @@ header .wrapper .test .question,header .wrapper .test .button_end{
     }
     #count .wrapper .item{
         width: 100%;
+        float: none;
     }
     #count .wrapper .item:nth-child(1){
         margin-bottom: 22px;
     }
     #count .wrapper .item h1{
         
+    }
+    #count .wrapper .item ul{
+        width: 100%;
     }
 }
 
@@ -615,7 +784,7 @@ header .wrapper .test .question,header .wrapper .test .button_end{
 }
 #contact img{
     width: 300px;
-    height: 86px;
+    height: 50px;
     display: block;
 }
 .p_a{
@@ -701,8 +870,8 @@ footer p{
 }
 @media screen and (max-width:1020px){
     #contact img{
-        width: 150px;
-        height:50px; 
+        width: 170px;
+        height:40px; 
     }
 }
 @media screen and (max-width:810px){
@@ -716,6 +885,8 @@ footer p{
     }
     #contact .wrapper img{
         margin: 0px auto 30px ;
+        width: 80%;
+        height: 80px;
     }
     #contact .wrapper .p_a{
         width: 100%
