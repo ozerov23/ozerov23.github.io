@@ -98,8 +98,7 @@ h1,p,a{
     position: absolute;
     z-index: 5;
     background-color:#ffffff;
-    margin: auto;
-    top: 195px;
+    top: 149px;
     left: 0;
     right: 0;
     
@@ -124,8 +123,8 @@ h1,p,a{
     margin-bottom: 40px;
      font-family: sans-serif;
 }
-#about .ab1{
-    font-size: 18px;
+#about p{
+    font-size: 16px;
      font-family: sans-serif;
 }
 #about .button,#price .button,#work .button,#ls .button,#contact .button {
@@ -318,7 +317,9 @@ h1,p,a{
 #contact span img{
     width: 100%;
 }
-
+#about img,#price img,#work img,#ls img,#contact img{
+       width: 100%;
+    }
 
 
 
@@ -331,7 +332,7 @@ h1,p,a{
 
 #bg-image{
     width: 100%;
-    height:910px;
+    height:780px;
     position: absolute;
     z-index: 1;
     background: url(../img/bg/bg1.jpg) no-repeat center;
@@ -339,14 +340,14 @@ h1,p,a{
 }
 #main{
     width: 100%;
-    height: 910px;
+    height: 780px;
     position:relative;
     z-index: 2;
     background-color:rgba(000,000,000,.7);
     padding-top: 55px;
 }
 #main .logo{
-    width: 455px;
+    width: 300px;
     display: block;
     margin: 0px auto 30px;
 }
@@ -354,24 +355,24 @@ h1,p,a{
     text-align: center;
     text-transform: uppercase;
     color: #ffe400;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 40px;
 }
 #main .content1 .row:nth-child(1){
-    width: 510px;
+    width: 360px;
     margin: auto;
     display: flex;
     justify-content: space-around;
 }
 #main .content1 .row:nth-child(2){
-    width: 680px;
-    margin: -35px auto 0px;
+    width: 470px;
+    margin: -25px auto 0px;
     display: flex;
     justify-content: space-around;
 }
 #main .content1 .row img{
-    width: 160px;
-    height: 180px;
+    width: 110px;
+    height: 130px;
     cursor: pointer;
     position: relative;
     webkit-transition: all 0.5s linear 0s;
@@ -385,26 +386,26 @@ h1,p,a{
 }
 
 #main .content2 .row:nth-child(1){
-    width: 350px;
+    width: 210px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 #main .content2 .row:nth-child(2){
-    width: 530px;
-    margin: -35px auto 0px;
+    width: 320px;
+    margin: -20px auto 0px;
     display: flex;
     justify-content: space-between;
 }
 #main .content2 .row:nth-child(3){
-    width: 350px;
-    margin: -35px auto 0px;
+    width: 210px;
+    margin: -20px auto 0px;
     display: flex;
     justify-content: space-between;
 }
 #main .content2 .row img{
-     width: 170px;
-     height:200px;
+     width: 100px;
+     height:110px;
      webkit-transition: all 0.5s linear 0s;
 	-moz-transition: all 0.5s linear 0s;
 	-o-transition: all 0.5s linear 0s;
@@ -413,7 +414,7 @@ h1,p,a{
 }
 #main .form{
     width: 605px;
-    padding-top: 27px;
+    padding-top: 25px;
     margin: 40px auto 0px;
     border: 1px solid #ffffff;
 }
@@ -446,7 +447,7 @@ h1,p,a{
       margin:0px auto 5px;
       background-color: #ffb400;
       color: #000000;
-      font-size: 28px;
+      font-size: 23px;
 }
 
 .anim{
@@ -486,413 +487,482 @@ h1,p,a{
     }
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1024px){
     #bg-image,#main{
-      height: 950px;
+      height:1366px;
     }
      #main .logo{
         width: 450px;
     }
+    #main h1{
+        font-size: 45px;
+        padding-top: 40px;
+    }
     #main .content1 {
         width: 100%;
-        margin-top: 10px;
+       
     }
-    #main .form{
-        width: 80%;
-        margin: 80px auto 0px;
-    }
-    #about{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    #about span{
-        left: 93%;
-    }
-    #work span{
-        left: 93%;
-
-    }
-    #ls span{
-        left: 93%;
-
-    }
-    #contact span{
-        left: 93%;
-    }
-}
-
-@media screen and (max-width:940px){
-
-   #main .content1 .row:nth-child(1){
-    width: 405px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-   } 
-    #main .content1 .row:nth-child(1) img{
-        width: 125px;
-        height: 140px;
+    #main .content1 .row:nth-child(1){
+        width: 720px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
     }
     #main .content1 .row:nth-child(2){
-        width: 540px;
-        margin: -25px auto 0px;
+        width: 920px;
+        margin: -35px auto 0px;
         display: flex;
-        justify-content:space-between;
+        justify-content: space-around;
     }
-    #main .content1 .row:nth-child(2) img{
-        width: 125px;
-        height:140px;
+    #main .content1 .row img{
+        width: 210px;
+        height: 230px;;
     }
-    #price {
-       padding-left: 30px;
-       padding-right: 30px;
+    #main .form{
+        width: 700px;
+        margin: 120px auto 0px;
+        padding-bottom: 12px;
     }
-}
-@media screen and (max-width:850px){
-    #ls .list{
-        width: 600px;
+    #main .form h1{
+        font-size: 32px;
     }
-}
-@media screen and (max-width:800px){
-    #bg-image,#main{
-        height: 1200px;
+    #main .form input{
+       margin: 40px auto 40px auto; 
+       display: block;
+       padding: 20px;
     }
-    #about h1{
-        margin-bottom: 10px;
+    #main .form a{
+        padding: 20px;
     }
-    #main .logo{
-        margin-top: 120px;
-    }
-    #main>h1{
-        margin: 90px auto; 
+    #about,#price,#work,#ls,#contact{
+        top: 300px;
     }
     
 }
 @media screen and (max-width:768px){
-    #about{
-        padding: 0px 10px;
+    #bg-image,#main{
+      height:1024px;
     }
-    #about span{
-        left: 93%;
-        top: -31px;
-        width: 60px;
-        height: 70px;
-        
+     #main .logo{
+        width: 380px;
+        margin-bottom: 25px;
     }
-     #bg-image,#main{
-      height: 1100px;
+    #main h1{
+        padding: 0px;
+        margin-bottom: 10px;
+        font-size: 32px;
+        margin-top: 0px;
     }
-    #main .logo{
-        width: 320px;
-        margin-bottom: 20px;
-        margin-top: 25px;
-    }
-   
-    #main>h1{
-        font-size: 18px;
-        margin-top: 40px;
-        margin-bottom: 40px;
+    #main .content1 {
+        width: 100%;
+        margin-top: 0px
     }
     #main .content1{
         display: none;
     }
     #main .content2{
         display: block;
+        margin-bottom: 0px;
     }
-    #main .form{
-        width: 80%;
-        margin: 70px auto 0px;
+    #main .content2 .row:nth-child(1){
+    width: 380px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
     }
-
-    #main .form input{
-        width: 80%;
-    }
-    #main .form a{
-         width: 80%;
-    }
-    #price .ex{
-        width: 70px;
-        height: 70px;
-        left: 94%;
-        top: -5%;
-    }
-    #price .links{
-       flex-flow: column;
-        width: 90%;
-    }
-    #work .w{
-        display: none;
-        
-    }
-    #work .w2{
-        display:block;
-        
-    }
-    #work span{
-        top: -41px;
-        width: 70px;
-        height: 70px;
-    }
-    #ls span{
-        top: -41px;
-        width: 70px;
-        height: 70px;
-    }
-    #contact span{
-        top: -41px;
-        width: 70px;
-        height: 70px;
-    }
-}
-@media screen and (max-width:734px){
-    #ls .list{
-        width: 220px;
-        flex-flow: column;
-    }
-    #ls .list .city{
-        margin-bottom: 15px;
-    }
-}
-@media screen and (max-width:680px){
-    #manager{
-        width: 80%
-    }
-    #manager span{
-        width: 50px;
-        height: 50px;
-    }
-    #manager input{
-        width: 76%;
-    }
-}
-@media screen and (max-width:600px){
-    #bg-image,#main{
-      height: 1200px;
-    }
-    #about {
-        top:80px;
-    }
-    #about span{
-        left: 89%;
-    }
-    #main .logo{
-        
-        margin-bottom: 60px;
-        margin-top: 15px;
-    }
-   
-    #main>h1{
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 60px;
-    }
-    #main .form{
-        width: 80%;
-        margin: 50px auto 0px;
-    }
-    #price .ex{
-        width: 70px;
-        height: 70px;
-        left: 91%;
-        top: -5%;
-    }
-    #ls .ex{
-        width: 70px;
-        height: 70px;
-        left: 91%;
-        top: -5%;
-    }
-    #work .ex{
-        width: 70px;
-        height: 70px;
-        left: 91%;
-        top: -5%;
-    }
-    #contact .ex{
-        width: 70px;
-        height: 70px;
-        left: 91%;
-        top: -5%;
-    }
-}
-@media screen and (max-width:544px){
-        #main .content2 .row:nth-child(1){
-            width:271px;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-        }
-        #main .content2 .row:nth-child(2){
-            width: 412px;
-            margin: -23px auto 0px;
-            display: flex;
-            justify-content: space-between;
-        }
-        #main .content2 .row:nth-child(3){
-             width:271px;
-            margin: -23px auto 0px;
-            display: flex;
-            justify-content: space-between;
-        }
-        #main .content2 .row img{
-             width: 130px;
-             height:140px;
-        }
-    
-}
-@media screen and (max-width:511px){
-    #main .logo{
-        margin-top: 65px;
-    }
-    #bg-image,#main{
-        height: 1200px;
-    }
-    #main>h1{
-        font-size: 18px;
-        margin-top: 50px;
-        margin-bottom: 60px;
-    }
-    #main .form{
-        width: 80%;
-        margin: 100px auto 0px;
-    }
-     #price .ex{
-        width: 60px;
-        height: 60px;
-        left: 91%;
-        top: -3%;
-    }
-    #work{
-        top: 260px;
-    }
-    #work span{
-        top: -41px;
-        width: 70px;
-        height: 70px;
-        left: 88%;
-    }
-    #ls span{
-        top: -41px;
-        width: 70px;
-        height: 70px;
-        left: 88%;
-    }
-    
-    #contact .ex{
-        top: -41px;
-        width: 70px;
-        height: 70px;
-        left: 88%;
-    }
-    #manager{
-        width: 80%
-    }
-    #manager span{
-        width: 50px;
-        height: 50px;
-        left: 91%;
-    }
-    #manager input{
-        width: 76%;
-    }
-}
-@media screen and (max-width:413px){
-   
-    #main .logo{
-        width: 300px;
-        margin-bottom: 10px;
-    }
-    #main .content2{
-        
-    }
-     #main .content2 .row:nth-child(1){
-        width:200px;
-        margin: auto;
+    #main .content2 .row:nth-child(2){
+        width: 580px;
+        margin: -35px auto 0px;
         display: flex;
         justify-content: space-between;
     }
-    #main .content2 .row:nth-child(2){
-        width: 310px;
-        margin: -17px auto 0px;
-        display: flex;
-        justify-content: space-around;
-    }
     #main .content2 .row:nth-child(3){
-         width:200px;
-        margin: -17px auto 0px;
+        width: 380px;
+        margin: -30px auto 0px;
         display: flex;
         justify-content: space-between;
     }
     #main .content2 .row img{
-         width: 97px;
-         height:100px;
-    }
-    
-    
-    #main .form input{
-        width: 90%;
-    
-    }
-    #contact{
-        margin-top:40px;
-    }
-    #main .form a{
-         width: 90%;
-    }    
-}
-@media screen and (max-width:388px){
-    #bg-image,#main{
-      height: 1330px;
-    }
-    #about span{
-        width: 50px;
-        height: 59px;
-        left: 90%;
-    }
-    #main .logo{
-        margin-top: 120px;
-        margin-bottom: 10px;
-        width: 280px;
-    }
-    #main h1{
-        margin-bottom: 120px;
-       
+        width: 180px;
+        height: 200px;
     }
     #main .form{
-        margin-top: 140px;
+        margin-top: 20px;
+        width: 550px;
     }
-    #about {
-        top: 40px;
-        padding: 5px
+    #main .form h1{
+        font-size: 25px;
     }
-    #about h1{
+    #main .form input{
+        padding: 13px 0px;
+        margin: 10px auto;
+    }
+    #main .form a{
+        padding: 10px;
+    }
+    #about,#price,#work,#ls,#contact{
+        top: 230px;
+    }
+    #about .ex ,#price .ex,#work .ex,#ls .ex,#contact .ex{
+        width: 60px;
+        height: 60px;
+        top: -6%;
+        left: 95%;
+    }
+    #ls .list{
+        width: 550px;
+    }
+}
+@media screen and (max-width:414px){
+    #bg-image,#main{
+      height:736px;
+    }
+    #main{
+        padding-top: 20px;
+    }
+    #main .logo{
+        width: 280px;
+        margin-bottom: 15px;
+    
+    }
+    #main>h1{
         margin-bottom: 10px;
     }
-    #price .ex{
-        width: 60px;
-        height: 60px;
-        left: 87%;
-        top: -3%;
+    
+    #main .content2 .row:nth-child(1){
+            width: 235px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
     }
-    #work span{
-        top: -41px;
-        width: 60px;
-        height: 60px;
-        left: 87%;
+    #main .content2 .row:nth-child(2){
+        width: 360px;
+        margin: -25px auto 0px;
+        display: flex;
+        justify-content: space-between;
     }
-    #ls span{
-        top: -41px;
-        width: 60px;
-        height: 60px;
-        left: 87%;
+    #main .content2 .row:nth-child(3){
+        width:235px;
+        margin: -25px auto 0px;
+        display: flex;
+        justify-content: space-between;
     }
-    #ls{
+    #main .content2 .row img{
+         width: 110px;
+        height: 130px;
+    }
+    #main .form{
+        width: 90%;
+        margin-top: 20px;
+    }
+    #main .form h1{
+        font-size: 20px;
+    }
+    #main .form input,#main .form a{
+        width: 95%;
+        font-size: 15px;
+    }
+    #about,#price,#work,#ls,#contact{
+        top: 100px;
+        padding: 7px;
+       
+    }
+    #about .ex ,#price .ex,#work .ex,#ls .ex,#contact .ex{
+        width: 40px;
+        height: 44px;
+        top: -2%;
+        left: 91%;
+    }
+    #about p,#price p,#work p,#ls p,#contact p{
+        font-size: 12px;
+    }
+    #work .w{
+        display: none;
+    }
+    #work .w2{
+        display:block;
+    }
+    #work  h1{
+        margin-bottom: 12px;
+    }
+   #work .w2 .row:nth-child(1),#work .w2 .row:nth-child(3){
+    width: 200px;
+    }
+    #work .w2 .row:nth-child(2),#work .w2 .row:nth-child(4){
+         width: 120px;
+    }
+    #work .w2 .row:nth-child(2),#work .w2 .row:nth-child(3),#work .w2 .row:nth-child(4){
+        margin-top: -25px;
+    }
+    #work .w2 .row img{
+        width: 90px;
+        height: 110px;
+    }
+    #price{
+        padding-top: 10px
+    }
+    #price h1{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 2px;
+    }
+    #price .links{
+        width: 100%;
+        flex-flow: column;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    #price .links .item img{
+        width: 90px;
+    }
+   #price>a{
+        margin-bottom: 0px;
+    }
+    #price p.button{
+        margin-top: 0px;
+        margin-bottom: 0px
+    }
+    #ls h1{
+        margin-top: 0px;
+         font-size: 20px;
+        margin-bottom: 0px;
+    }
+    #ls>p{
+        font-size: 11px;
+       
+    }
+    #ls .list{
+        width: 100%;
+        flex-flow: column;
+        margin-top: 5px;
+    }
+    #ls .city:nth-child(2){
+        margin: 12px 0px;
+    }
+    #ls .button{
+        margin: 10px auto 0px;
+    }
+    #contact h1:nth-child(2){
+        margin-bottom: 100px;
+    }
+    #contact h1:nth-child(5){
+        margin-bottom: 17px;
+    }
+    
+    
+}
+@media screen and (max-width:411px){
+    #bg-image,#main{
+      height:823px;
+    }
+    #main{
+        padding-top: 50px;
+    }
+    #main .logo{
+        width: 280px;
+        margin-bottom: 25px;
+    
+    }
+    #main>h1{
+        margin-bottom: 25px;
+    }
+    
+    #main .content2 .row:nth-child(1){
+            width: 235px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+    }
+    #main .content2 .row:nth-child(2){
+        width: 360px;
+        margin: -25px auto 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main .content2 .row:nth-child(3){
+        width:235px;
+        margin: -25px auto 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main .content2 .row img{
+         width: 110px;
+        height: 130px;
+    }
+    #main .form{
+        width: 90%;
+        margin-top: 26px;
+    }
+    #main .form h1{
+        font-size: 20px;
+    }
+    #main .form input,#main .form a{
+        width: 95%;
+        font-size: 15px;
+    }
+    #about,#price,#work,#ls,#contact{
+        top: 100px;
+        padding: 7px;
+       
+    }
+    #about .ex ,#price .ex,#work .ex,#ls .ex,#contact .ex{
+        width: 40px;
+        height: 44px;
+        top: -2%;
+        left: 91%;
+    }
+    #about p,#price p,#work p,#ls p,#contact p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:375px){
+    #bg-image,#main{
+      height:812px;
+    }
+    #main .logo{
+        width: 280px;
+        margin-bottom: 25px;
+    }
+    #main>h1{
+        margin-bottom: 30px;
+    }
+    #main .content2 .row:nth-child(1){
+            width: 206px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+    }
+    #main .content2 .row:nth-child(2){
+        width: 310px;
+        margin: -20px auto 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main .content2 .row:nth-child(3){
+        width: 206px;
+        margin: -20px auto 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main .content2 .row img{
+         width: 100px;
+        height: 110px;
+    }
+    #main .form{
+        width: 90%;
+        margin-top: 40px;
+    }
+    #main .form input,#main .form a{
+        width: 95%
+    }
+    #about,#price,#work,#ls,#contact{
+        top: 100px;
+        padding: 7px;
+       
+    }
+    #about .ex ,#price .ex,#work .ex,#ls .ex,#contact .ex{
+        width: 40px;
+        height: 44px;
+        top: -2%;
+        left: 91%;
+    }
+    #about p,#price p,#work p,#ls p,#contact p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:360px){
+    #bg-image,#main{
+      height:640px;
+    }
+    #main{
+        padding-top: 10px;
+    }
+    #main .logo{
+        width: 210px;
+        margin-bottom: 5px;
+    }
+    #main>h1{
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    #main .content2 .row:nth-child(1){
+            width: 206px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+    }
+    #main .content2 .row:nth-child(2){
+        width: 310px;
+        margin: -20px auto 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main .content2 .row:nth-child(3){
+        width: 206px;
+        margin: -20px auto 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #main .content2 .row img{
+         width: 100px;
+        height: 110px;
+    }
+    #main .form{
+        width: 80%;
+        margin-top: 20px;
+    }
+    #main .form input,#main .form a{
+        width: 95%
+    }
+    #about,#price,#work,#ls,#contact{
+        top: 70px;
+        padding: 7px;
+       
+    }
+    #about .ex ,#price .ex,#work .ex,#ls .ex,#contact .ex{
+        width: 40px;
+        height: 44px;
+        top: -2%;
+        left: 91%;
+    }
+    #about p,#price p,#work p,#ls p,#contact p{
+        font-size: 12px;
+    }
+    
+    #about h1{
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    #about p{
+        font-size: 11px;
+    }
+    #about p.button{
+        margin-top: 0px;
+    }
+    #work h1{
+        margin-bottom: 0px;
+        font-size: 20px;
+    }
+    #work h2{
+        margin-top: 0px
+    }
+    #work p.button{
+        margin: 10px auto 0px;
+    }
+    #price h1{ 
+        font-size: 20px;
+    }
+    #price p{
+        line-height: 1.2;
+    }
+    #ls .list p{
+        font-size: 10px;
+        padding: 0.3px 0px;
+    }
+    #contact h1:nth-child(2){
+        margin-bottom: 40px;
+    }
+    #contact p.button{
         margin-top: 90px;
-    }
-    #contact .ex{
-        top: -41px;
-        width: 60px;
-        height: 60px;
-        left: 87%;
     }
 }
