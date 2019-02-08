@@ -174,4 +174,106 @@ $(document).ready(function(){
         $(this).addClass("anim");
         
     });
+    
+    
+    
+    
+    
+    
+    
+    
+    /*$(".pr").each(function(i){
+       $(this).click(function(){
+           if(i==0){
+                              
+                var docHeight = $(document).height(); 
+               $("body").append("<div id='overlay2'></div>");
+               $("#overlay2")
+                  .height(docHeight); 
+               $("#heating").fadeIn(1500);
+           }
+           if(i==1){
+                var docHeight = $(document).height(); 
+               $("body").append("<div id='overlay2'></div>");
+               $("#overlay2")
+                  .height(docHeight); 
+               $("#con").fadeIn(1500);
+           }
+           if(i==2){
+                var docHeight = $(document).height(); 
+               $("body").append("<div id='overlay2'></div>");
+               $("#overlay2")
+                  .height(docHeight); 
+                $("#san").fadeIn(1500);
+           }
+           if(i==3){
+                var docHeight = $(document).height(); 
+               $("body").append("<div id='overlay2'></div>");
+               $("#overlay2")
+                  .height(docHeight); 
+               $("#sewage").fadeIn(1500);
+           }
+       }); 
+        
+        
+        
+    });*/
+    
+    $(".list1").click(function(){
+         var docHeight = $(document).height(); 
+               $("body").append("<div id='overlay2'></div>");
+               $("#overlay2")
+                  .height(docHeight); 
+               $("#heating").fadeIn(1500);
+    });
+    $(".list2").click(function(){
+         var docHeight = $(document).height(); 
+               $("body").append("<div id='overlay2'></div>");
+               $("#overlay2")
+                  .height(docHeight); 
+               $("#con").fadeIn(1500);
+    });
+    $(".list3").click(function(){
+         var docHeight = $(document).height(); 
+               $("body").append("<div id='overlay2'></div>");
+               $("#overlay2")
+                  .height(docHeight); 
+               $("#san").fadeIn(1500);
+    });
+    $(".list4").click(function(){
+         var docHeight = $(document).height(); 
+               $("body").append("<div id='overlay2'></div>");
+               $("#overlay2")
+                  .height(docHeight); 
+               $("#sewage").fadeIn(1500);
+    });
+    
+    
+    
+    $("#heating .ex,#con .ex,#san .ex,#sewage .ex ").click(function(){
+        $("#heating,#con,#san,#sewage").fadeOut(1000); 
+        $("#overlay2").remove();
+    });
+    
+    
+    
+    
+    
+    
+    
+     $("#manager p").click(function(){
+        $("#manager").fadeOut(1000); 
+        $("#overlay2").remove();
+    })
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 });
