@@ -1,0 +1,464 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, {
+	display: block;
+}
+body {
+	margin: 0px;
+}
+*{
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+header{
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #EAD126;
+    
+}
+header nav .logo img{
+    width: 130px;
+    display: block;
+}
+header nav .m-p{
+    width: 590px;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+header nav .menu1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 12px;
+}
+header nav .menu1 li{
+}
+header nav .menu1 li a{
+    display: block;
+    padding: 10px;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #EAD126;
+}
+header nav .menu1 li a:hover{
+     border-bottom: 1px solid #000000;
+}
+header nav .menu2{
+    width: 400px;
+    background-color: #EAD126;
+    display: none;
+}
+header nav .menu2 .btn{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+header nav .menu2 .btn span{
+    width: 100%;
+    height: 5px;
+    display: block;
+    background-color: black;
+}
+header nav .menu2 .btn span:nth-child(2){
+    margin: 7px 0px;
+}
+header nav .menu2 .link-list{
+   display: none;
+}
+header nav .menu2 .link-list li a{
+    display: block;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+}
+header nav .menu2 .link-list li a:hover {
+     background-color: black;
+     color: #ffffff;
+}
+header nav .phone{
+    width: 170px;
+    
+    text-align: center;
+    padding: 20px;
+    border-radius: 120px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #000000;
+}
+@media screen and (max-width:917px){
+    header {
+         margin-top: 0px;
+    }
+    header nav{
+        padding-bottom: 12px;
+        
+    }
+    header nav .logo{
+        margin: auto;
+        width: 90px;
+    }
+    header nav .logo img{
+        width: 100%;
+    }
+    header nav,header nav .m-p{
+        flex-flow: column;
+    }
+    header nav .m-p{
+        width: 100%;
+        margin-top: 10px;
+    }
+    header nav .m-p .menu1{
+        display: none;
+    }
+    header nav .m-p .menu2{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    header nav .m-p .menu2 .btn{
+        margin: auto;
+    }
+    header nav .menu2 .link-list{
+        text-align: center;
+    }
+    header nav .menu2 .link-list li a{
+        padding: 15px;
+    }
+    header nav,header nav .m-p .menu2{
+        flex-flow: column;
+    }
+   header nav .m-p .phone{
+        margin: 10px auto 0px;
+        padding: 10px;
+    }
+    
+}
+
+header .bg{
+    background: url(../img/bg/bg1.jpeg) no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 210px;
+}
+header .bg .form{
+    width: 420px;
+    margin-left: 120px;
+    
+}
+header .bg .form h1{
+    font-size: 35px;
+}
+header .bg .form p{
+    margin: 40px 0px;
+    font-size: 18px;
+    width: 360px;
+}
+header .bg .form a{
+    display: block;
+    width: 220px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 120px;
+    color: #ffffff;
+    background-color: #000000;
+}
+@media screen and (max-width:917px){
+    header .bg .form{
+    width: 90%;
+    margin: auto; 
+ }
+    header .bg .form h1{
+        text-align: center
+    }
+    header .bg .form p{
+        width: 100%;
+        text-align: center;
+    }
+    header .bg .form .modal-win{
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+#s-p h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 50px;
+}
+#s-p h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 42px;
+}
+#s-p  .wrraper{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#s-p  .wrraper{
+    margin-top: 40px;
+}
+#s-p  .wrraper .item{
+    width: 420px;
+    margin-bottom: 20px;
+}
+#s-p  .wrraper .item img{
+    width: 100%;
+    height: 370px;
+    display: block;
+}
+#s-p  .wrraper .item .fix{
+    position: relative;
+    top: 7%;
+}
+#s-p  .wrraper .item p{
+    text-align: center;
+    margin: 20px auto;
+    width: 400px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#s-p  .wrraper .item a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: #000000;
+    font-weight: bold;
+    background-color: #EAD126;
+}
+
+
+
+@media screen and (max-width:936px){
+    #s-p  .wrraper{
+        width: 700px;
+    }
+    #s-p  .wrraper .item{
+        width: 330px;
+    }
+    #s-p  .wrraper .item img{
+      height: 300px;
+    }
+    #s-p  .wrraper .item p{
+        width: 100%;
+    }
+}
+@media screen and (max-width:714px){
+    
+    #s-p  .wrraper{
+        width:330px;
+    }
+    
+}
+
+
+#adv{
+    background-color: #EAD126;
+    padding: 100px 0px 0px;
+}
+#adv>h1{
+    text-align: center;
+    font-size: 43px;
+    text-transform: uppercase;
+}
+#adv .wrraper{
+    width: 850px;
+    margin: 70px auto 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+#adv .wrraper .item{
+    width: 250px;
+    margin-bottom: 22px;
+}
+#adv .wrraper .item img{
+    width: 110px;
+    display: block;
+    margin: auto;
+}
+#adv .wrraper .item h1{
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10px;
+}
+@media screen and (max-width:880px){
+    
+    #adv .wrraper{
+        width: 500px;
+    }
+    
+}
+@media screen and (max-width:540px){
+    
+    #adv .wrraper{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+#clients{
+    padding: 70px 0px ;
+    
+}
+#clients h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#clients .wrraper{
+    width: 700px;
+    margin: 52px auto 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+#clients .wrraper .item{
+    width: 200px;
+    margin-bottom: 12px;
+}
+#clients .wrraper .item img{
+    width: 100%;
+}
+@media screen and (max-width:727px){
+    
+    #clients .wrraper{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+#comments{
+     padding: 70px 0px;
+     text-align: center;
+     background-color: #EAD126;
+}
+#comments h1{
+    font-size: 50px;
+}
+#form{
+    padding: 120px 0px;
+    background: url(../img/bg/kb.jpg) center;
+    background-size: cover;
+}
+#form h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: white;
+}
+#form .form{
+    width: 500px;
+    margin: auto;
+}
+#form .form *{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 12px;
+    border: 1px solid grey;
+}
+#form .form textarea{
+    resize: none;
+}
+#form .form .button{
+    background-color: #EAD126;
+    border: none;
+}
+@media screen and (max-width:539px){
+    #form .form{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:340px){
+    
+    #s-p  .wrraper{
+        width: 100%;
+    }
+    #s-p  .wrraper .item{
+        width: 100%;
+    }
+    #s-p>h1,#adv>h1,#clients>h1{
+        font-size: 39px;
+    }
+}
+
+
+
+
+
+
+
+#soc{
+    width: 100%;
+    background-color: black;
+    padding: 20px 0px;
+}
+#soc .wrraper{
+    width: 300px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+#soc .wrraper img{
+    width: 60px;
+    height: 60px;
+    
+}

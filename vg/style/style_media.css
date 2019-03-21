@@ -1,0 +1,323 @@
+@media screen and (max-width:1120px){
+    /*# block5*/
+    #work .wrapper{
+        width: 1000px;
+    }
+   #work .wrapper .w{
+        width: 250px;
+    }
+}
+@media screen and (max-width:1100px){
+	/*==# block1=*/
+	nav .menu1{
+		margin-right: 20px;
+	}
+    #compatibility{
+        margin-top: 70px;
+    }
+    #compatibility h1{
+        width: 100%;
+    }
+    #compatibility p{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1040px){
+    #form h1{
+        font-size: 30px;
+    }
+    #form form{
+        width: 90%;
+    }
+    #form form input[type="text"]{
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 0px;
+    }
+    #form form #name{
+    margin: 0px 0px 20px 0px;
+    }
+    #form form #email{
+    margin: 0px 0px 20px 0px;
+    }
+    
+    #form form input[type="submit"]{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1020px){
+    /*===# block 5===*/
+    #work h1{
+        font-size: 36px;
+    }
+    #work .wrapper{
+        width: 800px;
+    }
+   #work .wrapper .w{
+        width: 200px;
+    }
+    #work .wrapper .w h1{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:990px){
+    /*==# block1=*/
+	nav{ 
+		height:inherit;
+		overflow: hidden;
+	}
+	nav img{
+		float: none;
+		margin: auto;
+		display: block;
+		margin-bottom: 12px
+	}
+	nav .button{
+		margin: auto;
+	}
+	nav .button img{
+		float: none;
+		margin: auto;
+		display: block;
+	}
+	nav .menu1{
+		display: none;
+	}
+	nav .button{
+		display:block;
+		
+	}
+	nav .button, nav .button .menu2 li{
+		text-align: center;
+		
+	}
+    #compatibility .wrapper{
+        width: 650px;
+    }
+    #compatibility .wrapper .d1,#compatibility .wrapper .d2,#compatibility .wrapper .d4,#compatibility .wrapper .d5{
+        width: 14%;
+    
+    }
+    #compatibility .wrapper .d3{
+        width: 31%;
+    }
+    #compatibility .wrapper .d1 img,
+    #compatibility .wrapper .d2 img,
+    #compatibility .wrapper .d3 img,
+    #compatibility .wrapper .d4 img,
+    #compatibility .wrapper .d5 img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:902px){
+    
+     /*==# block2=*/
+    header .bg form{
+        width: 610px;
+        margin: auto;
+    }
+    
+     /*==# block3=*/
+    #catalog h1{
+        font-size: 36px;
+    }
+    #catalog .wrapper{
+        width: 650px;
+    }
+    #catalog .wrapper .product{
+        width: 300px;
+        
+    }
+    #catalog .wrapper .product h1{
+        font-size: 23px;
+    }
+    #catalog .wrapper .product .win{
+        width:100%;
+        height: 300px;
+    }
+    #catalog .wrapper .product .win img{
+        width:100%;
+    }
+    #catalog .wrapper .product .button{
+        width: 289px;
+    }
+    #catalog .wrapper .product .button .first{
+        
+     
+    }
+}
+@media screen and (max-width:850px){
+    
+    /*==# block4=*/
+    #compatibility .bg>h1{
+        width: 100%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:822px){
+    /*===# block 5===*/
+    #work .wrapper{
+        width: 400px;
+    }
+    #work .wrapper .w{
+        width: 200px;
+        margin-bottom: 100px;
+    }
+    #work .wrapper .w h1{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:750px){
+    /*==# block4=*/
+    #compatibility .bg>h1{
+        width: 100%;
+        font-size: 30px;
+        margin-bottom: 90px;
+    }
+    #compatibility .device{
+        width: 100%;
+    }
+    #compatibility .device div{
+        float: none;
+    }
+    
+    #compatibility .device .img1,#compatibility .device .img2,#compatibility .device .img3{
+        margin: auto; 
+        padding: 0px;
+        margin-bottom: 12px;
+    }
+     /*==# block6=*/
+    #reviews .wrapper{
+        width: 500px;
+    }
+}
+@media screen and (max-width:700px){
+     #compatibility .wrapper{
+        width: 30%;
+    }
+    #compatibility .wrapper .d1,#compatibility .wrapper .d2,#compatibility .wrapper .d4,#compatibility .wrapper .d5{
+        width: 80%;
+        margin: auto;
+    }
+    #compatibility .wrapper .d3{
+        width: 100%;
+    }
+}
+@media screen and (max-width:680px){
+    
+    
+    /*==# block3=*/
+    #catalog .wrapper {
+        width: 300px;
+        
+    }
+    #catalog .wrapper .win .product{
+        margin-right: 0px;
+        width: 300px;
+    }
+    
+    
+}
+@media screen and (max-width:630px){
+    
+     /*==# block2=*/
+    header .bg form{
+        width: 100%;
+        margin: auto;
+    }
+    header .bg form h1{
+        font-size: 30px;
+    }
+    header .bg form p{
+        font-size: 16px;
+    }
+    header .bg form a{
+        width: 200px;
+        padding: 10px;
+        font-size: 22px;
+    }
+    #compatibility h1{
+        font-size: 32px;
+    }
+    #compatibility p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:550px){
+    /*===# block 6===*/
+    #reviews .wrapper{
+        width: 100%;
+        height:350px;
+    }
+    #reviews .wrapper h1{
+        font-size: 25px;
+    }
+    #reviews .wrapper p{
+        font-size: 16px
+    }
+    #reviews .nav{
+        width: 85px;
+    }
+    #reviews .nav label{
+        width: 15px;
+        height: 15px;
+    }
+}
+@media screen and (max-width:420px){
+    /*===# block 5===*/
+    #work .wrapper{
+        width: 100%;
+    }
+    #work .wrapper .w{
+      float: none;
+      width: 100%;
+    }
+    #work .wrapper .w h1{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:350px){
+    /*==# block3==*/
+    #catalog .wrapper{
+        width: 80%;
+        margin: auto;
+    }
+    #catalog .wrapper .product{
+        width: 100%;
+       
+    }
+    #catalog .wrapper .product .win{
+        height: 270px;
+    }
+    #catalog .wrapper .p1 .images{
+        width: 175px;
+    }
+    #catalog .wrapper .product .images .img{
+        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    #catalog .wrapper .product .images .img img{
+        width: 38px;
+    }
+    #catalog .wrapper .product .images .last{
+        margin-right: 0px;
+    }
+    #catalog .wrapper .p2 .images, #catalog .wrapper .p4 .images{
+        width: 130px;
+    }
+    #catalog .wrapper .p3 .images{
+        width: 85px;
+    }
+    #catalog .wrapper .product .button{
+        width: 100%;
+    }
+    #catalog .wrapper .product .button a{
+        display: block;
+        margin: 0px auto 20px auto;
+    }
+}
