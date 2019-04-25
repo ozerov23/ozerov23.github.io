@@ -1,0 +1,28 @@
+@font-face{
+    font-family:"Retro_Stereo_Wide";
+    src:url('../fonts/Retro_Stereo_Wide.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal;
+    
+}
+@font-face{
+    font-family:"Axis";
+    src:url('../fonts/Axis.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal;
+    
+}
+@font-face{
+    font-family:"RW2";
+    src:url('../fonts/RW2.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal;
+    
+}
+@font-face{
+    font-family:"RW3";
+    src:url('../fonts/RW3.ttf') format("truetype");
+    font-weight:normal;
+    font-style:normal;
+    
+}
