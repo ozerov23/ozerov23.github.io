@@ -1,0 +1,482 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, {
+	display: block;
+}
+body {
+
+}
+*{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+  	background:url(../img/bg1.png) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+header nav{
+    background-color: #ffffff;
+    padding: 0px 0px 10px 0px;
+}
+header nav{
+    overflow: hidden;
+    background-color: #fff;
+	position: fixed;
+    width:100%;
+	z-index:4;
+}
+header nav .brend{
+    width: 200px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+header nav a.brend img{
+    width: 100%; 
+}
+header nav .menu_button{
+   width: 50px;
+   height: 50px;
+   float: right;
+   margin: 0px 0px 0px 0px;
+   background: transparent;
+   border: none;
+   display: none;
+   border: 2px solid black;
+}
+header nav .menu_button span{
+    width: 30px;
+    height: 6px;
+    background-color: black;
+    display: block;
+	margin: auto ;
+}
+header nav .menu_button span::before{
+    display: block;
+    left: 0;
+    position: relative;
+    top: -11px;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    content: "";
+}
+header nav .menu_button span::after{
+    display: block;
+    left: 0;
+    position: relative;
+    bottom: -5px;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    content: "";
+}
+header nav ul.menu1{
+    list-style: none;
+    margin-top: 20px;
+    float: right;
+    display: block;
+	
+}
+header nav ul.menu1 li{
+    float: left;
+}
+header nav ul.menu1 li{
+   text-decoration: none;
+   padding: 20px;
+   color: black;
+   font-family: sans-serif;
+}
+header nav ul.menu1 li a{
+    text-decoration: none;
+    color: black;
+	font-family: "font3";
+}
+header nav ul.menu2{
+    list-style: none;
+    margin-top: 20px;
+    clear: both;
+    display: block;
+	margin:0px;
+    padding: 0px;
+    display: none;
+}
+header nav ul.menu2 li{
+   text-decoration: none;
+   padding: 20px;
+   color: black;
+   font-family: sans-serif;
+}
+header nav ul.menu2 li a{
+    text-decoration: none;
+    color: black;
+	font-family: "font3";
+}
+header nav img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+header .bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000,000,000,.7);
+    padding-top:120px;
+	padding-bottom: 120px;
+}
+header .bg h1{
+    text-align: center;
+    font-size: 57px;
+    color: white;
+    margin-bottom: 50px;
+    font-family:'font3';
+    font-weight: normal;
+}  
+header .bg h1 .dj{
+    color: #A4A4A4;
+    font-family: 'font2';
+}
+header .bg>img{
+        width: 500px;
+        margin: auto;
+        display: block;
+    } 
+header .bg a{
+    display: block;
+    width: 250px;
+    padding: 20px 0px;
+    margin: 60px auto 0px auto;
+    text-align: center;
+    background-color: #4169E1;
+    color:white;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 120px;
+    font-family:'font1';
+}
+@media screen and (max-width:1429px){
+	header nav{
+		width: inherit;
+	}
+    header nav .brend{
+        margin-left: 50px;
+    }
+	header nav .brend{
+		width: 200px;
+	}
+    nav ul{
+        margin-right:20px;
+    }
+}
+@media screen and (max-width:1300px){
+    header nav .brend{
+        margin-left: 50px;
+    }
+	header nav .brend{
+		width: 200px;
+	}
+    nav ul{
+        margin-right:20px;
+    }
+}
+@media screen and (max-width:950px){
+    header nav .menu_button{
+        display: block;
+        float: right;
+        width: 50px;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+     header nav .brend{
+       width: 150px;
+    }
+    header nav ul.menu1 {
+        width: 100%;
+		display: none;
+    }
+    header .bg img{
+         width: 60%;
+        margin: auto;
+        display: block;
+    }    
+}
+@media screen and (max-width:450px){
+   
+    header .bg img{
+         width: 80%;
+        margin: auto;
+        display: block;
+    }    
+}
+
+
+
+/*====#2====*/
+#ap{
+    width: 100%;
+    padding-top: 120px;
+}
+#ap h1{
+    text-align: center;
+    font-family:'font3';
+    font-size: 57px;
+}
+
+#ap img{
+    margin: 100px auto 50px;
+    display: block;
+}
+#ap ul{
+    width: 400px;
+    margin: 0px auto 10px;
+    list-style: decimal;
+}
+#ap ul li{
+    font-family: 'font3';
+    padding: 10px 0px ;
+    text-align: center;
+}
+#ap ul li span{
+    color: dimgrey;
+    text-decoration:underline;
+    cursor: pointer;
+}
+#ap .hg{
+    font-size: 23px;
+    display: none;
+}
+#ap p{
+    width: 700px;
+    margin: 10px auto 0px;
+    font-family: 'font3';
+    display: none;
+}
+#ap .har{
+    display: block;
+    width: 250px;
+    padding: 20px 0px;
+    margin: 60px auto 0px auto;
+    text-align: center;
+    background-color: #4169E1;
+    color:white;
+    text-decoration: none;
+    font-size: 19px;
+    font-family:'font1';
+    
+}
+
+@media screen and (max-width:850px){
+    #ap img{
+        width: 80%;
+    }
+    
+    
+}
+@media screen and (max-width:549px){
+    #ap ul{
+        width: 80%;
+    }
+    
+    
+}
+
+
+
+#work {
+	width: 100%;
+	padding: 170px 0px 70px 0px;
+}
+#work h1{
+	text-align: center;
+	font-size: 57px;
+	font-family:'font3';
+	text-transform: uppercase;
+}
+#work .icons{
+	display: flex;
+	justify-content:space-around;
+	margin-top: 50px;
+}
+#work .icons .item{
+    width: 250px;
+    
+}
+
+#work .icons .item img{
+	width: 110px;
+	height: 110px;
+	display: block;
+	margin: auto;
+}
+#work .icons .item p{
+	font-family:'font3';
+    text-align: center;
+}
+
+@media screen and (max-width:700px){
+   #work .icons{
+	flex-direction: column;
+    }
+    #work .icons .item{
+        margin: auto;
+    }
+    #work .icons .item:nth-child(2){
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+}
+
+
+
+#comments{
+	background: url(../img/gp.jpg) center no-repeat;
+	background-size: cover;
+	
+}
+#comments  .bg{
+	padding:50px 0px 100px 0px;
+	background-color: rgba(000,000,000,.4)
+}
+#comments  h1{
+	text-align: center;
+    font-size: 57px;
+	font-family:'font3';
+    color: #ffffff;
+}
+#comments .win{
+	width:60%;
+	margin: 60px auto 0px auto;
+}
+#comments .win img{
+	margin: auto;
+	display: block;
+	border-radius: 120px;
+	margin-bottom: 20px;
+}
+#comments .win h1{
+	text-align: center;
+	font-size: 50px;
+	font-family:'font3';
+	font-weight: normal;
+	color: #CFCFCF;
+}
+#comments .win p{
+	text-align: center;
+	font-family:'font3';
+	font-weight: normal;
+	line-height: 1.7;
+	color: #CFCFCF;
+}
+
+
+
+
+
+
+
+#form{
+	width: 100%;
+	padding: 120px 0px 60px 0px;
+	overflow: hidden;
+}
+#form h1{
+	text-align: center;
+	font-size: 57px;
+	font-family:'font3';
+	text-transform: uppercase;
+	color: black;
+	margin-bottom: 50px;
+}
+#form .contact{
+	width: 700px;
+	overflow: hidden;
+	margin: auto;
+}
+#form form{
+	width: 400px;
+	margin:30px 0px 0px 0px;
+	float: left;
+	
+}
+#form form input[type="text"]{
+	height: 37px;
+	padding-left: 20px;
+    width: 100%;
+    border: 1px solid grey;
+}
+#form form input[type="submit"]{
+	margin-top: 10px;
+	display: block;
+	background-color: #4169E1;
+	padding: 10px 0px 10px 0px;
+	color: white;
+	border: none;
+}
+#form form input{
+	display: block;
+	width: 100%;
+	font-size: 17px;
+}
+#form form textarea{
+	width: 100%;
+	height: 120px;
+	resize: none;
+	padding: 10px;
+    font-family: 'font3';
+}
+#form form input:nth-child(2){
+	margin: 20px 0px 20px;
+}
+#form .address{
+	float: right;
+	margin-top: 30px;
+}
+#form .address img{
+	width: 200px;
+	float: right;
+}
+#form .address p{
+	text-align: right;
+	font-family: "font3";
+	margin-bottom: 12px;
+}
+
+
+@media screen and (max-width:770px){
+  #form .contact{
+	width: 90%;
+	overflow: hidden;
+	margin: auto;
+    }
+    #form form{
+	width: 100%;
+	margin:30px 0px 0px 0px;
+	float: none;
+	
+    }
+    #form .address{
+	float: none;
+	margin-top: 30px;
+    }
+    #form .address img{
+        float: none;
+        margin: auto;
+        display: block;
+    }
+    #form .address p{
+        float: none;
+        text-align: center;
+    }
+}
