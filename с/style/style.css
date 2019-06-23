@@ -1,0 +1,663 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video,.container-fluid{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, {
+	display: block;
+}
+
+body {
+
+}
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    
+}
+nav{
+   width: 100%;
+   background-color: black;
+}
+nav .wrraper{
+    width: 1050px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .wrraper .logo{
+    display: block;
+    width: 200px;
+}
+nav .wrraper .logo img{
+    width: 100%;
+}
+nav .wrraper .w_m{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'font1';
+}
+nav .wrraper .w_m p:nth-child(1){
+    color: #ffffff;
+}
+nav .wrraper .w_m p .color{
+    color: #f69c00;
+}
+nav .wrraper .w_m p:nth-child(2){
+    color: #f69c00;
+    border-top: 2px solid grey;
+}
+nav .wrraper .p_e{
+    padding-top: 10px;
+    color: #ffffff;
+    font-family: 'font1'
+}
+nav .wrraper .button{
+    padding-top: 15px;
+    
+}
+nav .wrraper .button p{
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f69c00;
+  color: #ffffff;  
+  cursor: pointer;
+  border-radius: 120px;  
+       font-family: 'font1'
+}
+
+header{
+    
+}
+
+header .bg{
+    padding: 80px 0px 32px 0px;
+    background: url(../img/bg1.jpg) no-repeat center;
+    background-size: cover;
+}
+header .bg .wrraper{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .bg .wrraper   .banner{
+    width: 500px;
+    
+}
+header .bg  .banner p{
+    text-align: center;
+    padding: 40px; 
+    font-family: "font1";
+    font-size: 12px;
+    border: 8px solid #ffffff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color:rgba(000,000,000,.7);
+}
+header .bg .wrraper  .image{
+    margin-top: -250px;
+}
+header .bg .wrraper  .image img{
+    width: 450px;
+    display: block;
+    margin: 42px 0px 0px 0px;
+}
+header .bg .wrraper  .image .label{
+   background: url(../img/label.png) no-repeat center;
+   padding: 30px;
+   transform: rotate(340deg);
+   position: relative;
+   top: -120px;
+}
+header .bg .wrraper  .image .label h1{
+      font-family: "font2";
+      padding:0px 0px 0px;
+      font-weight: bold;
+      font-size: 30px;
+     text-align: center;
+     color: #C00A17;
+    
+}
+header .bg .wrraper  .image .label h1 span{ 
+    font-size: 40px;
+}
+header .bg .form{
+    width: 400px;
+    background-color:rgba(000,000,000,.7);
+    padding:50px 0px 40px 0px;
+    border-radius: 30px;
+    border: 10px solid #ffffff;
+}
+header .bg .form h1{
+    text-align: center;
+    color: #ffffff;
+    font-family:'font2';
+    font-size: 24px;
+    margin: auto;
+
+}
+header .bg .form form{
+    width: 300px;
+    margin: auto;
+}
+header .bg .form input[type="text"]{
+    display: block;
+    width: 100%;
+    margin-top: 23px;
+    border: 3px solid #f69c00;
+    border-radius:13px;
+    padding: 5px 0px 5px 0px
+}
+header .bg .form input[type="submit"]{
+    width: 200px;
+    display: block;
+    margin: 52px auto 0px auto;
+    padding: 11px 0px 12px;
+    background-color:#f69c00;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family:'font1';
+    font-size: 19px;
+}
+
+
+
+@media screen and (max-width:1201px){
+    header .bg{
+        padding: 30px 0px 30px;
+    }
+}
+@media screen and (max-width:1110px){
+    header .bg{
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+@media screen and (max-width:1075px){
+   nav{
+   width: 100%;
+   background-color: black;
+    }
+    nav .wrraper{
+        width: 90%;
+    }
+    
+    nav .wrraper .logo{
+        display: block;
+        width: 150px;
+    }
+    nav .wrraper .logo img{
+        width: 100%;
+    }
+    nav .wrraper .w_m{
+        width: 200px;
+    }
+    nav .wrraper .p_e{
+        width: 200px;
+    }
+    nav .wrraper .button{
+
+    }
+}
+@media screen and (max-width:846px){
+   nav{
+   width: 100%;
+   background-color: black;
+    }
+    nav .wrraper{
+        width: 90%;
+    }
+    
+    nav .wrraper .logo{
+        display: block;
+        width: 150px;
+    }
+    nav .wrraper .logo img{
+        width: 100%;
+    }
+    nav .wrraper .w_m{
+        text-align: center;
+        width:170px;
+    }
+    nav .wrraper .p_e{
+        text-align: center;
+        width: 150px;
+        padding: 0px;
+    }
+    nav .wrraper .button{
+        text-align: center;
+    }
+}
+@media screen and (max-width:846px){
+   nav{
+   width: 100%;
+   background-color: black;
+    }
+    nav .wrraper{
+        width:100%;
+    }
+ 
+}
+@media screen and (max-width:736px){
+   nav{
+   width: 100%;
+   background-color: black;
+    }
+    nav .wrraper{
+        width:100%;
+        flex-flow: column;
+    }
+    nav .wrraper a{
+        margin: auto;
+    }
+    nav .wrraper div{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1045px){
+    header .bg .wrraper{
+        width: 90%
+    }
+    header .bg .wrraper .banner{
+        width: 430px;
+    }
+    header .bg .wrraper .form{
+        width: 300px;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    header .bg .wrraper .form h1{
+        width: 90%
+    }
+    header .bg .form form{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width:827px){    
+    header .bg{
+        padding: 10px 0px 0px;
+    }
+    header .bg .banner p{
+        padding: 10px
+    }
+    header .bg .wrraper .form{
+        width: 90%;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    header .bg .wrraper  .image{
+    margin-top: 0px;
+        width: 410px;
+   }
+     header .bg .wrraper  .image img{
+       width: 100%;
+       }
+    header .bg .wrraper>div{
+        margin: 10px auto;
+    }
+    header .bg .wrraper  .image .label{
+        background: url(../img/label2.png) no-repeat center;
+    }
+    
+}
+@media screen and (max-width:508px){    
+    header .bg{
+        padding: 10px 0px 0px;
+    }
+    header .bg .banner{
+        width: 90%;
+    }
+
+
+     header .bg .wrraper  .image img{
+       width: 100%;
+       }
+
+}
+
+
+#work{
+    padding: 120px 0px 120px 0px;
+    background-color:#141414;
+}
+
+#work h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: "font2";
+    color: #f69c00;
+    margin-bottom: 100px;
+    text-transform: 
+}
+
+#work .wrraper{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#work .wrraper .item{
+    width: 220px;
+    height: 220px;
+    padding-top: 30px;
+}
+
+
+#work .wrraper .item img{
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+
+#work .wrraper .item p{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'font1';
+    color: #ffffff;
+    margin-top: 12px;
+}
+@media screen  and (max-width:858px){
+    #work .wrraper{
+        width: 100%;
+    }
+}
+
+#catalog{
+	
+	background-color:#f69c00;
+	padding: 120px 0px;
+}
+
+#catalog h1{
+	text-align: center;
+	font-family: 'font2';
+	font-size: 60px;
+	margin-bottom: 80px;
+}
+
+#catalog .wrraper{
+	width: 850px;
+	margin: auto; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: flex-start;
+}
+
+#catalog .wrraper .item{
+	width: 250px;
+	margin-bottom: 12px;
+}
+#catalog .wrraper .item .image{
+	width: 100%;
+}
+#catalog .wrraper .item .image img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#catalog .wrraper .item  p{
+	padding: 10px;
+}
+#catalog .wrraper .item  p.label{
+	padding: 10px;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: #000000;
+	color: #ffffff;
+	font-family:"font1";
+	font-size: 18px;
+}
+
+#catalog .wrraper .item  p.req{
+	width:195px;
+	margin: auto;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #AD0A01;
+	color: #ffffff;
+	font-family:"font1";
+}
+#catalog .send{
+    padding: 20px 0px;
+    margin:62px auto 0px auto;
+    width: 370px;
+    text-align: center;
+    border-radius: 120px;
+    font-family:"font1";
+    background-color: #000000;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+}
+@media screen  and (max-width:885px){
+    #catalog .wrraper{
+        width: 90%;
+    }
+}
+@media screen  and (max-width:885px){
+    #catalog .wrraper{
+        width: 90%;
+    }
+}
+@media screen  and (max-width:571px){
+    #catalog .wrraper .item{
+        margin: 20px auto 0px auto;    
+    }
+    #catalog .send{
+        width: 90%;
+       
+    }
+}
+
+#comments{
+    width: 100%;
+    padding: 70px 0px 30px 0px;
+    background-color:#141414;
+}
+#comments h1{
+    text-align: center;
+    font-family: "font2";
+    font-size: 65px;
+    margin-bottom: 90px;
+    color:#f69c00;;
+}
+#comments .wrraper{
+    width: 700px;
+    margin: auto;
+}
+#comments .wrraper .win{
+    width: 100%;
+}
+#comments .wrraper .item{
+    width: 100%;
+    display: none;
+    border-radius: 20px;
+    border:3px solid #ffffff;
+    padding: 20px;
+}
+#comments .wrraper .item:nth-child(1){
+    display: block;
+}
+#comments .wrraper .win  .item h2{
+    text-align: center;
+    font-family: 'font1';
+    font-size: 32px;
+    margin: 20px 0px;
+     color: #f69c00;
+}
+#comments .wrraper .item p{
+    font-size: 19px;
+    text-align: center;
+    font-family: 'font1';
+    color: #f69c00;;
+}
+#comments .wrraper .item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    margin: auto;
+    display: block;
+}
+#comments .nav-pag{
+    width: 100px;
+    margin:30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#comments .nav-pag .s{
+    width: 20px;
+    height: 20px;
+    border-radius: 120px;
+    border: 2px solid #ffffff;
+}
+
+.point{
+    background-color:#f69c00;
+}
+@media screen and (max-width:734px){
+    #comments .wrraper{
+        width: 90%;
+    }
+}
+
+#arrival{
+    width: 100%;
+    background: url(../img/bg2.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+#arrival .bg{
+    padding: 120px 0px;
+    background-color: rgba(000,000,000,.8);
+}
+#arrival h1{
+    font-size: 43px;
+    font-family: "font2";
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #f69c00;
+}
+
+#arrival .bg .wrraper{
+    width: 860px;
+    margin: 70px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+#arrival .bg .wrraper .item{
+    width: 260px;
+    height: 200px;
+    margin-bottom: 15px;
+    border: 5px solid #f69c00;
+    border-radius: 20px;
+}
+
+#arrival .bg .wrraper .item img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    display:block;
+}
+@media screen and (max-width:920px){
+    #arrival .bg .wrraper{
+        width: 90%;
+    }
+}
+
+#form{ 
+    padding: 60px 0px;
+    background-color: #f69c00;
+}
+#form h1{
+    text-align: center;
+    font-family: 'font2';
+    font-size: 43px;
+    margin-bottom: 70px;
+}
+#form form{
+    width: 700px;    
+    display: block;
+    margin: auto;
+}
+#form form *{
+    
+    border:none;
+}
+#form form .row{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+#form form .row input{
+    width: 220px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 120px;
+    display: block;
+}
+#form form input[type="submit"]{
+    width: 350px;
+    margin: 20px auto 0px auto;
+    border-radius: 120px;
+    padding: 10px 0px;
+    text-align: center;
+    border: 4px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'font1';
+    display: block;
+}
+
+
+@media screen and (max-width:763px){
+    #form form{
+        width: 96%;
+    }
+}
+@media screen and (max-width:740px){
+    #form form .row{
+        flex-flow: column;
+    }
+    #form form .row input{
+        margin: 10px 0px;
+        width: 100%;
+    }
+}
+
+footer{
+    padding: 20px;
+    background-color:#141414;
+}
+footer p{
+    text-align: center;
+    font-family: "font1";
+    font-size: 12px;
+    color: #ffffff;
+}
