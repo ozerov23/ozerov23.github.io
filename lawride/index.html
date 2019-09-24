@@ -18,6 +18,27 @@
    <link rel="stylesheet" href="css/serv.css">
 </head>
 <body>
+ 
+ 
+ <section id="bg">
+     
+     
+     
+ </section>
+ <section id="win">
+     <div class="row">
+         <img src="img/icons/cancel.png" alt="" class="ex">
+     </div>
+      <img src="img/logo.png" alt="" >
+       <form>
+           <input type="text" placeholder="Имя:">
+           <input type="text" placeholder="Email:">
+           <input type="text" placeholder="Тема:">
+           <textarea name="" id="" placeholder="Введите сообщение:"></textarea>
+           <input type="submit" value="отправить заявку">
+       </form>
+   </section>
+ 
   <!--================ Header Top Area Start =================-->
   <section class="header-top d-none d-sm-block">
     <div class="container">
@@ -49,10 +70,10 @@
 
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> 
-              <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item active"><a class="nav-link" href="index.html">Главная</a></li> 
+              <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li> 
+              <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
             </ul>
           </div> 
         </div>
@@ -62,7 +83,7 @@
   <!--================Header Menu Area =================-->
 
   <!--================ Hero Banner start =================-->      
-  <section class="hero-banner">
+  <section class="hero-banner" id="bg-image">
     <div class="hero-banner__content text-center">
       <h1>We Well Understand Your Intention</h1>
       <a class="button" href="#">Make an Appoinment</a>
@@ -344,7 +365,7 @@
       <div class="row">
         <div class="col-lg-3  col-md-6 col-sm-6">
           <div class="single-footer-widget">
-            <h6>About Agency</h6>
+            <h6 class="hed">About Agency</h6>
             <p>
               «ЮРИСКОНСУЛЬТ» – команда профессиональных юристов, оказывающих консультационно-правовые услуги населению Казани и Татарстана. Мы также работаем по всей России. </p>
             </p>
@@ -368,17 +389,20 @@
       
         <div class="col-lg-3  col-md-6 col-sm-6">
           <div class="single-footer-widget mail-chimp">
-            <h6 class="mb-20">InstaFeed</h6>
-            <ul class="instafeed d-flex flex-wrap">
-              <li><img src="img/instagram/i1.jpg" alt=""></li>
-              <li><img src="img/instagram/i2.jpg" alt=""></li>
-              <li><img src="img/instagram/i3.jpg" alt=""></li>
-              <li><img src="img/instagram/i4.jpg" alt=""></li>
-              <li><img src="img/instagram/i5.jpg" alt=""></li>
-              <li><img src="img/instagram/i6.jpg" alt=""></li>
-              <li><img src="img/instagram/i7.jpg" alt=""></li>
-              <li><img src="img/instagram/i8.jpg" alt=""></li>
-            </ul>
+            <h6 class="mb-20 hed">КОНТАКТЫ</h6>
+            <div class="address">
+                <h1>Красногорск, Московская область</h1>
+                <p>Жилой комплекс Тетрис, к1</p>
+            </div>
+            <div class="ph">
+                <h1>8 (495) 226-08-99</h1>
+                <p>Mon to Fri 9am to 6pm</p>
+            </div>
+            <div class="mail">
+               <h1>support@colorlib.com</h1>
+                <p>Send us your query anytime!</p>
+            </div>
+            
           </div>
         </div>						
       </div>
@@ -389,11 +413,11 @@
           <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left">
 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+Copyright &copy; All rights reserved </p>
           <dic class="social-footer">
               <a href=""><img src="img/icons/i-b.png" alt=""></a>
               <a href=""><img src="img/icons/t-b.png" alt=""></a>
-          </dic>
+          </div>
         </div>
       </div>
     </div>

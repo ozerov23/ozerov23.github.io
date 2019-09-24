@@ -159,10 +159,20 @@ $(function() {
       
     
     
+    $(".order").on("click",function(){
+        $("#bg").fadeIn(800);
+        setTimeout(function(){
+            $("#win").fadeIn(800);
+        },800);
+    });
     
     
-    
-    
+     $(".ex").on("click",function(){
+        $("#win").fadeOut(800);
+        setTimeout(function(){
+            $("#bg").fadeOut(800);
+        },800);
+    });
     
     
     
