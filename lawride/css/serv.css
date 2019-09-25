@@ -258,7 +258,7 @@ padding: 0px;
     left: 0px;
     right: 0px;
     z-index: 101;
-    display: none;
+    display: none
 }
 #win .row{
     width: 100%;
@@ -267,6 +267,36 @@ padding: 0px;
     margin: auto;
     margin-bottom: 40px;
 }
+#win .row .ex{
+    width:30px;
+    height:30px;
+    margin-top: 12px;
+    cursor: pointer;
+    
+}
+#win .row .ex span{
+    width: 30px;
+    height: 5px;
+    display: block;
+    position: absolute;
+}
+#win .row .ex span:nth-child(1){
+    transform: rotate(45deg);
+    transform-origin: 50% 50%;
+    background-color: #ffffff;
+}
+
+#win .row .ex span:nth-child(2){
+    transform: rotate(135deg);
+    transform-origin: 50% 50%;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
 #win .row img{
     width: 20px;
     height: 20px;
