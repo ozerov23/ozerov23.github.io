@@ -8,6 +8,27 @@
     background-size:cover;
     z-index:1
 }
+
+
+#bg-image h1{
+    color: #de6320;
+    line-height: 1.3;
+}
+#bg-image h1 span.upper{
+    text-transform: uppercase;
+}
+#bg-image h1 span.color{
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+}
+.hero-banner{
+    width: 100%;
+    padding: 0px;
+}
+.hero-banner__content{
+    width: 100%;
+}
 .serv{
     margin: auto;
     padding: 0px;
