@@ -4,6 +4,7 @@
 .header_area .navbar .nav .nav-item .nav-link{
     font-size: 20px;
 }
+.header_area .navbar{padding:10px 0}
 #bg-image{
     background:url("../img/banner/hero-banner.png") left center no-repeat;
     background-size:cover;
