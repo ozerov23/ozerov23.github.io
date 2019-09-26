@@ -1,8 +1,12 @@
 *{
     
 }
-
-
+.header-top__info li{
+    font-size: 20px;
+}
+.main_menu li.nav-item a.nav-link{
+    font-size: 20px;
+}
 #bg-image{
     background:url("../img/banner/hero-banner.png") left center no-repeat;
     background-size:cover;
