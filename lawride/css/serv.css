@@ -1,10 +1,7 @@
 *{
     
 }
-.header-top__info li{
-    font-size: 20px;
-}
-.main_menu li.nav-item a.nav-link{
+.header_area .navbar .nav .nav-item .nav-link{
     font-size: 20px;
 }
 #bg-image{
