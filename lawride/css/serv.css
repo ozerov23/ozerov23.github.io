@@ -53,18 +53,27 @@
     font-size: 45px;
     padding-left: 20px;
 }
-.serv .content p{
-    margin: 0px;
-    padding-left: 20px;
-    color: #de6320;
-    font-size: 22px;
-}
-.serv .content p:nth-child(3){
-   
-    margin-top: 12px;
-}
+
 .serv .content ul{
-    padding-left: 20px;
+    margin-left: 20px;
+}
+.serv .content ul li{
+    margin-top: 10px;
+    padding-left: 62px;
+    color: #de6320;
+}
+.serv .content ul li:nth-child(1){
+    background: url(../img/icons/new/bank50.png) no-repeat 
+}
+.serv .content ul li:nth-child(2){
+    background: url(../img/icons/new/gavel50.png) no-repeat 
+}
+.serv .content ul li:nth-child(3){
+    background: url(../img/icons/new/car50.png) no-repeat ;
+    padding: 12px 40px 0px 62px;
+}
+.serv .content ul li:nth-child(4){
+    background: url(../img/icons/new/hand-shake50.png) no-repeat 
 }
 .serv .content .order{
     text-align: center;
