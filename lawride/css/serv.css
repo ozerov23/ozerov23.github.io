@@ -54,25 +54,40 @@
     padding-left: 20px;
 }
 
-.serv .content ul{
+.serv-1 .content ul{
     margin-left: 20px;
+}
+.serv-2 .content ul{
+     margin-left: 0px;
 }
 .serv .content ul li{
     margin-top: 10px;
     padding-left: 62px;
     color: #de6320;
 }
-.serv .content ul li:nth-child(1){
+.serv-2 .content ul li{
+     padding-left: 29px;
+}
+.serv-2 p{
+    text-align: center;
+     color: #de6320;
+    font-weight: bold;
+}
+.serv-2 .content button.order{
+    margin: auto;
+    display: block;
+}
+.serv-1 .content ul li:nth-child(1){
     background: url(../img/icons/new/bank50.png) no-repeat 
 }
-.serv .content ul li:nth-child(2){
+.serv-1 .content ul li:nth-child(2){
     background: url(../img/icons/new/gavel50.png) no-repeat 
 }
-.serv .content ul li:nth-child(3){
+.serv-1 .content ul li:nth-child(3){
     background: url(../img/icons/new/car50.png) no-repeat ;
     padding: 12px 40px 0px 62px;
 }
-.serv .content ul li:nth-child(4){
+.serv-1 .content ul li:nth-child(4){
     background: url(../img/icons/new/hand-shake50.png) no-repeat 
 }
 .serv .content .order{
