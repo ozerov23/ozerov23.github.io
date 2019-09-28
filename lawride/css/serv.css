@@ -39,10 +39,16 @@
     background-color:#f7f7f7;
     padding: 20px ;
 }
+.serv-2{
+     margin: auto;
+     padding: 0px;
+}
+
 .serv .image{
     width: 41%;
     height: 100%
 }
+
 .serv .image img{
     width: 100%;
 }
@@ -57,23 +63,14 @@
 .serv-1 .content ul{
     margin-left: 20px;
 }
-.serv-2 .content ul{
-     margin-left: 0px;
-}
+
 .serv .content ul li{
     margin-top: 10px;
     padding-left: 62px;
     color: #de6320;
 }
-.serv-2 .content ul li{
-     padding-left: 29px;
-     font-size: 17px;
-}
-.serv-2 p{
-    text-align: center;
-     color: #de6320;
-    font-weight: bold;
-}
+
+
 .serv-2 .content button.order{
     margin: auto;
     display: block;
@@ -91,7 +88,37 @@
 .serv-1 .content ul li:nth-child(4){
     background: url(../img/icons/new/hand-shake50.png) no-repeat 
 }
+
 .serv .content .order{
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+    margin-top: 11px;
+    padding: 8px 0px;
+    border: none;
+    background-color: #de6320;
+    color: #ffffff;
+    width: 200px;
+}
+.serv-2 .image{
+    width: 700px;
+     margin: auto;
+}
+.serv-2 .image img{
+    width: 100%;
+}
+.serv-2 ul{
+    margin-top: 20px;
+}
+.serv-2 ul li,.serv-2 p{
+    color: #de6320;
+    font-size: 20px;
+}
+.serv-2 p{
+    text-align: center;
+    font-weight: bold;
+}
+.serv-2 .content .order{
     text-align: center;
     display: block;
     margin-left: 20px;
