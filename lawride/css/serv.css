@@ -101,7 +101,7 @@
     width: 200px;
 }
 .serv-2 .image{
-    width: 100%;
+    width: 65%;
      margin: 40px auto 0px ;
 }
 .serv-2 .image img{
@@ -153,6 +153,15 @@
         margin: auto;
         margin-top: 20px;
     }
+}
+@media screen and (max-width:560px){
+    .serv-2 ul li{
+        text-align: center;
+    }
+    .serv-2 .image{
+        width: 90%;
+    }
+    
 }
 #about{
     text-align: center;
