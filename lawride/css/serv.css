@@ -70,7 +70,7 @@
     color: #de6320;
 }
 
-
+.serv-2 .content{}
 .serv-2 .content button.order{
     margin: auto;
     display: block;
@@ -101,8 +101,8 @@
     width: 200px;
 }
 .serv-2 .image{
-    width: 700px;
-     margin: auto;
+    width: 100%;
+     margin: 40px auto 0px ;
 }
 .serv-2 .image img{
     width: 100%;
