@@ -487,14 +487,25 @@ padding: 0px;
 }
 
 .work .wrraper{
-    width: 1000px;
+    width: 1100px;
     display: flex;
     margin: auto;
     justify-content: space-between;
     margin-top: 50px;
 }
+.work .wrraper .arrow{
+    width: 30px;
+   
+}
+.work .wrraper .arrow img{
+     width: 30px;
+     height: 40px;
+     margin-top: 200%;
+}
 .work .wrraper .item{
     width: 180px;
+    border-radius: 120px;
+    overflow: hidden
 }
 .work .wrraper .item .image{
     width: 100%;
@@ -513,14 +524,16 @@ padding: 0px;
     margin-top: 10px;
 }
 
-@media screen  and  (max-width:1100px){
+@media screen  and  (max-width:1200px){
     .work{
     padding: 40px 0px;
 }
 .work>h1{
     text-align: center;
 }
-
+  .work .wrraper .arrow{
+        display: none;
+    }
 .work .wrraper{
     width: 100%;
     display: flex;
