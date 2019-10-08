@@ -287,14 +287,24 @@
      <section id="contact">
          <h1>Задать вопрос</h1>
       <div class="wrraper">
-          <form action="">
+          <form action="" id="question_form">
               <div class="t-f">
-                  <input type="text" placeholder="Введите имя:">
-                  <input type="text" placeholder="Введите Email:">
-                  <input type="text" placeholder="Введите тему:">
+                 
+                 <div class="name">
+                     <input type="text" placeholder="Введите имя:" name="name">
+                 </div>
+                 
+                 <div class="email">
+                     <input type="text" placeholder="Введите Email:" name="email">
+                 </div>
+                 <div class="subject">
+                     <input type="text" placeholder="Введите тему:" name="subject">
+                 </div> 
               </div>
-              <textarea name="" id="" placeholder="Вопрос:"></textarea>
               
+              <div class="msg">
+                  <textarea name="message"  placeholder="Вопрос:" ></textarea>
+              </div>
               <input type="submit" id="send" value="Отправить"> 
           </form>
       </div>
@@ -386,10 +396,10 @@
             <div class="row">
               <div class="col">
                 <ul class="link-list">
-                  <li><a href="#">Главная</a></li>
-                  <li><a href="#">О компании</a></li>
-                  <li><a href="#">Услуги</a></li>
-                  <li><a href="#">Контакты</a></li>
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="about.html">О компании</a></li>
+                  <li><a href="services.html">Услуги</a></li>
+                  <li><a href="contact.html">Контакты</a></li>
                 </ul>
               </div>									
             </div>							
@@ -437,6 +447,8 @@ Copyright &copy; All rights reserved </p>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
   <script src="vendors/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/contact.js"></script>
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>

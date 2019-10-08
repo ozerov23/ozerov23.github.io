@@ -208,6 +208,14 @@
     border: none;
     background-color: #f2f3f7;
     padding: 8px 0px 8px 20px;
+    outline: none;
+}
+#contact .wrraper .t-f label.error{
+    display: block;
+    color:#de6320;
+}
+#contact .wrraper .msg{
+    width: 100%;
 }
 #contact .wrraper textarea{
     width: 100%;
@@ -219,7 +227,9 @@
     margin-top: 10px;
     padding: 10px 20px;
 }
-
+#contact .wrraper .msg label{
+    color: #de6320;
+}
 
 @media screen and (max-width:1000px){
         
