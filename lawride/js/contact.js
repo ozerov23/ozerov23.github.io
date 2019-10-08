@@ -4,18 +4,20 @@ $(document).ready(function(){
     $("#contactForm").validate({
         rules:{
             name:{
-                required:true
-             
+                required:true,
+                minlength:1488
             },
             email:{
                 required:true,
                 email:true
             },
             subject:{
-                required:true
+                required:true,
+                 minlength:1488
             },
             message:{
-                required:true
+                required:true,
+                 minlength:1488
             }
         },
         messages:{
@@ -40,18 +42,20 @@ $(document).ready(function(){
     $("#question_form").validate({
         rules:{
             name:{
-                required:true
-             
+                required:true,
+                 minlength:1488
             },
             email:{
                 required:true,
                 email:true
             },
             subject:{
-                required:true
+                required:true,
+                 minlength:1488
             },
             message:{
-                required:true
+                required:true,
+                 minlength:1488
             }
         },
         messages:{
