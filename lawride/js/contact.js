@@ -5,7 +5,7 @@ $(document).ready(function(){
         rules:{
             name:{
                 required:true,
-                minlength:1488
+                maxlength:1488
             },
             email:{
                 required:true,
@@ -13,11 +13,11 @@ $(document).ready(function(){
             },
             subject:{
                 required:true,
-                 minlength:1488
+                 maxlength:1488
             },
             message:{
                 required:true,
-                 minlength:1488
+                 maxlength:1488
             }
         },
         messages:{
@@ -43,7 +43,7 @@ $(document).ready(function(){
         rules:{
             name:{
                 required:true,
-                 minlength:1488
+                 maxlength:1488
             },
             email:{
                 required:true,
@@ -51,11 +51,11 @@ $(document).ready(function(){
             },
             subject:{
                 required:true,
-                 minlength:1488
+                 maxlength:1488
             },
             message:{
                 required:true,
-                 minlength:1488
+                 maxlength:1488
             }
         },
         messages:{
