@@ -25,6 +25,16 @@
      
      
  </section>
+ 
+ 
+ 
+ <section id="send">
+     <div class="ex">
+         <img src="img/icons/cancel.png" alt="">
+     </div>
+     <img src="img/icons/%D0%BE%D0%BA.png" alt="">
+     <h1>Заявка отправлена !</h1>
+ </section>
  <section id="win">
      <div class="row">
         <div class="ex">
@@ -33,12 +43,12 @@
         </div>
      </div>
       <img src="img/logo.png" alt="" >
-       <form>
-           <input type="text" placeholder="Имя:">
-           <input type="text" placeholder="Email:">
-           <input type="text" placeholder="Тема:">
-           <textarea name="" id="" placeholder="Введите сообщение:"></textarea>
-           <input type="submit" value="отправить заявку">
+       <form id="winForm">
+           <input type="text" placeholder="Имя:" name="name" class="name">
+           <input type="text" placeholder="Email:" name="email" class="email">
+           <input type="text" placeholder="Тема:" name="subject" class="subject">
+           <textarea name="message" id="" placeholder="Введите сообщение:"></textarea>
+           <input type="submit" value="отправить заявку" id="form1">
        </form>
    </section>
  
@@ -443,14 +453,12 @@ Copyright &copy; All rights reserved </p>
   </footer>
   <!-- ================ End footer Area ================= -->
 
-  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-  <script src="vendors/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery-3.2.0.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/contact.js"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
+ <script src="js/ajax.js"></script>
+
+  
 </body>
 </html>

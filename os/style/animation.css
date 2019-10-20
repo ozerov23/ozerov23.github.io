@@ -1,0 +1,168 @@
+
+
+
+header{
+     transition-property: background-color;
+     transition-duration: 2s;
+    -webkit-transition-property background-color,color;
+    -webkit- transition-duration: 2s;
+}
+.fixed{
+    background-color: #033d5f;
+}
+
+
+.fixed *{
+    color: #ffffff;
+}
+header .nav-menu li a{
+    transition-property:  color;
+     transition-duration: 2s;
+    -webkit-transition-property:color;
+    -webkit- transition-duration: 2s;
+}
+header .name *{
+    transition-property: color;
+     transition-duration: 2s;
+    -webkit-transition-property: color;
+    -webkit- transition-duration: 2s;
+}
+header .ph-con *{
+    transition-property: color;
+     transition-duration: 2s;
+    -webkit-transition-property:color;
+    -webkit- transition-duration: 2s;
+}
+
+header .btn-menu span{
+     transition-property: background-color;
+     transition-duration: 2s;
+    -webkit-transition-property:background-color;
+    -webkit- transition-duration: 2s;
+}
+.fixed .btn-menu span{
+    background-color: #ffffff;
+}
+.fixed .nav-menu li a{
+    color: #ffffff;
+}
+.fixed .name *{
+     color: #ffffff;
+}
+.fixed .ph-con *{
+     color: #ffffff;
+}
+
+
+
+
+
+
+
+/*about animation*/
+
+
+
+
+@keyframes moveL{
+    from{
+        
+        
+    }to{
+        margin-left: 0%;
+    }
+}
+
+
+@keyframes moveR{
+    from{
+        
+        
+    }to{
+        margin-left: 30%;
+    }
+}
+
+
+
+.mL{
+    animation-name: moveL;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;    
+    -webkit-animation-name: moveL;
+     -webkit-animation-duration: 2s;
+    -webkit- animation-fill-mode: forwards;  
+    -mos-animation-name: moveL;
+    -mos-animation-duration: 2s;
+    -mos-animation-fill-mode: forwards;    
+}
+
+.mR{
+    animation-name: moveR;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+    -webkit-animation-name: moveR;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards; 
+    -mos-animation-name: moveR;
+     -mos-animation-duration: 2s;
+     -mos-animation-fill-mode: forwards; 
+    
+}
+
+
+
+/*serv*/
+#content .serv .wrraper .image .bg a{
+    transition-property:color;
+    transition-duration: 1s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-duration: 1s;
+    -mos-transition-property: background-color,color;
+    -mos-transition-duration: 1s;
+}
+
+#content .serv .wrraper .image .bg a:hover{
+    color:#033d5f;
+    background-color:#ffffff;
+}
+
+
+
+
+
+#anim-border li a{
+    transition-property:  color;
+    transition-duration: 0.5s;
+}
+#anim-border li a:hover{
+    color: #088dfd;
+}
+
+
+
+
+
+/*anim button*/
+
+
+ #btn{
+    transition-property:background-color,color;
+    transition-duration: 1s;
+    -webkit-transition-property: background-color,color;
+    -webkit-transition-duration: 1s;
+    -mos-transition-property: background-color,color;
+    -mos-transition-duration: 1s;
+}
+
+ #btn:hover{
+    background-color: #088dfd;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
