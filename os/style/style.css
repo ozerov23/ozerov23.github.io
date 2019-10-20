@@ -159,13 +159,13 @@ body *{
 }
 
 
-@media screen and (max-width:582px){
-    
-    #decription{
-        width: 90%;
+
+@media screen and (max-width:600px){
+    #description{
+        width: 80%;
     }
-    
-    
+   
+}    
     
     
     
