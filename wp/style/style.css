@@ -62,7 +62,7 @@ header .row .item p{
     color: #1f588e;
 }
  #wrraper-main header>nav{
-    background-color: #2878aa;
+   background: linear-gradient(5deg,#4197b5,#2878aa)
 }
  #wrraper-main nav ul.main-1{
     width: 80%;
