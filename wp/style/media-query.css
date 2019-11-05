@@ -1,0 +1,139 @@
+@media screen and (max-width:1042px){
+    #wrraper-main{
+        width: 90%
+    }
+    
+}
+@media screen and (max-width:1001px){
+    #wrraper-main footer nav{
+      width: 400px;
+    }
+    #wrraper-main footer nav .row{
+        width:100%;
+    }
+    #wrraper-main footer nav .row .menu-list1{
+    width: 140px;
+    } 
+
+#wrraper-main footer nav .row .menu-list2{
+    width: 170px;
+    }
+
+}
+@media screen and (max-width:925px){
+    #wrraper-main .content .info .month-list .wrraper{
+           width: 90%;
+}
+    #wrraper-main .content .info .tours .t{
+        width: 80%;
+        flex-flow: column;
+    }
+    #wrraper-main .content .info .tours .t .img-pr{
+        margin: auto
+    }
+    #wrraper-main .content .info .tours .t  .desc{
+        width: 100%;
+        
+    }
+    #wrraper-main .content .info .tours .t  .desc *{
+        text-align: center;
+    }
+    #wrraper-main .content .info .tours .t  .desc a{
+        display: inline-block;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:771px){
+    #wrraper-main .content{
+        flex-flow: column;
+    }
+    #wrraper-main .content .sidebar{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #wrraper-main .content .info{
+        width:80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:707px){
+    
+    #wrraper-main footer{
+        flex-flow: column;
+        width: 100%;
+    }
+    #wrraper-main footer>*{
+        margin: auto;
+        
+    }
+    #wrraper-main footer nav{
+        width: 100%;
+    }
+    #wrraper-main footer nav h1{
+        text-align: center;
+    }
+    #wrraper-main footer nav .row{
+        flex-flow: column;
+    }
+    #wrraper-main footer nav .row ul.menu-list1,
+    #wrraper-main footer nav .row ul.menu-list2{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #wrraper-main footer nav .aferta{
+        width: 100%;
+    }
+    #wrraper-main footer nav .aferta p{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:822px){
+    #wrraper-main{
+        width: 93%;
+    }
+    #wrraper-main header .row .item{
+        width: 100%
+    }
+    #wrraper-main header .row .item:nth-child(2) p{
+        text-align: center;
+    }
+    #wrraper-main header nav{
+        padding: 20px 0px;
+    }
+    #wrraper-main header nav .btn{
+        display: block;
+        margin: auto;
+    }
+    #wrraper-main header nav .main-1{
+        display: none;
+    }
+    
+}
