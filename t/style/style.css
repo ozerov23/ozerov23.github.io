@@ -47,7 +47,7 @@ body{
 header .row {
     display:flex;
     justify-content: space-around;
-    padding: 50px 0px 20px 0px;
+    padding: 28px 0px 20px 0px;
     width: 100%;
     flex-wrap:wrap; 
     background-color: #e6e6e6
@@ -60,15 +60,19 @@ header .row .item:nth-child(1) img{
 }
 header .row .item:nth-child(2){
     padding-top: 10px;
-    width: 40%;
+    width: 39%;
 }
 header .row .item:nth-child(2) h1{
     font-family: 'EU';
     color: #1f588e;
-    font-size: 35px;
+    font-size: 34px;
+    margin-top: 12px;
+    line-height: 1;
+        
 }
 header .row .item:nth-child(3){
-    width: 25%;
+    width: 20%;
+    padding-top: 20px;
 }
 header .row .item p{
     text-align: right;
@@ -76,18 +80,21 @@ header .row .item p{
     font-family: 'Arial-Regular';
     font-size: 14px;
 }
+header .row .item .mode{
+    margin-top: 9px;
+}
  #wrraper-main header>nav{
-   background: linear-gradient(90deg,#4297b4 12% ,#21659d 40%,#1b496d 75%)
+   background: linear-gradient(90deg,#4297b4 5% ,#21659d 36%,#21659d 54%, #1b496d 75%)
     
 }
  #wrraper-main nav ul.main-1{
-    width: 80%;
+    width:75%;
     margin: auto;
     list-style: none;
     display: flex;
     justify-content: space-around;
-    font-family: 'Arial-Regular';
-    font-size: 15px;
+    font-family: 'Arial';
+    
 }
 #wrraper-main nav  .btn{
     width: 40px;
@@ -106,9 +113,9 @@ header .row .item p{
 }
  #wrraper-main nav ul.main-1 li a{
     text-decoration: none;
-    padding: 13px 0px;
+    padding: 18px 0px;
     display: block;
-    font-size: 15px;
+    font-size: 12.5px;
     color: #ffffff;
 }
 #wrraper-main nav ul.main-2{
@@ -138,12 +145,20 @@ header .row .item p{
     margin-top: 0px;
     color: #004b76;
     background-color: #c5def9;
-    padding: 10px 20px 10px 40px;
+    padding: 10px 0px 10px 24px;
     font-size: 15px;
     
 }
+
+
 #wrraper-main .content .sidebar .list{
     margin: 10px 0px 0px 0px;
+}
+#wrraper-main .content .sidebar .list li {
+    
+}
+#wrraper-main .content .sidebar .list>li {
+    
 }
 #wrraper-main .content .sidebar .list li a{
     font-size: 13px;
@@ -151,11 +166,27 @@ header .row .item p{
     font-family: 'Arial-Regular';
 }
 #wrraper-main .content .sidebar .list>li>a{
-    padding: 5px 0px 5px 30px;
+    padding: 5px 0px 5px 24px;
     color: #383838;
     
 } 
+.amb{
+    
+    background:url(../img/arrow.png) no-repeat 5px 10px;
+}
+.amt{
+    
+    background:url(../img/arrowT.png) no-repeat 5px 10px;
+}
 
+.ahb{
+    
+    background:url(../img/arrow.png) no-repeat 5px 15px;
+}
+.aht{
+    
+    background:url(../img/arrowT.png) no-repeat 5px 15px;
+}
 #wrraper-main .content .sidebar .list  .list-sub{
     margin-left: 40px;
 }
@@ -193,14 +224,14 @@ header .row .item p{
 #wrraper-main .content .sidebar aside:nth-child(2)
 {
      background-color: #c5def9;
-     border-bottom: 1px solid #759bc5
+     border-bottom: 1px solid #759bc5;
     
 }
 #wrraper-main .content .sidebar aside:nth-child(2) .list{
-     margin: 0px 0px 0px 50px;
+     margin: 0px 0px 0px 66px;
 }
 #wrraper-main .content .sidebar aside:nth-child(2) .list  li a{
-    padding-left: 15px;
+    padding-left: 11px;
     display: inline-block;
     color: #4c6885;
     font-family: "Arial";
@@ -210,13 +241,14 @@ header .row .item p{
 
 
 
-
+#wrraper-main .content{
+     background-color: #e9e9e9;
+}
 
  #wrraper-main .content .info{
     width: 78%;
     padding-top: 5px;
     padding-bottom: 10px;
-    background-color: #e9e9e9
 }
 
  #wrraper-main .content .info .slider{
@@ -360,13 +392,19 @@ header .row .item p{
 
 
 #wrraper-main footer{
-    background-color: #2168a0;
+   padding-bottom: 70px;
+    background: linear-gradient(30deg,#4297b4 0.3% ,#21659d 30%,#1a496c 70%);
+}
+#wrraper-main footer .shadow{
+   
+    
+    box-shadow:  0px 11px 24px 2px #000000;
+}
+#wrraper-main footer .wrraper{
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 70px;
-    background: linear-gradient(30deg,#4297b4 10% ,#21659d 40%,#1a496c 95%)
 }
-
 #wrraper-main footer .logo-contact{
     width: 200px;
     margin-top: 60px;
@@ -388,8 +426,11 @@ header .row .item p{
 #wrraper-main footer nav{
     padding-top: 60px;
 }
+#wrraper-main footer .wrraper nav .contact{
+    display: none;
+}
 #wrraper-main footer nav h1{
-    font-family:"Arial-Bold";
+    font-family:"Arial-Regular";
     font-size: 25px;
     color:#a3b1be;
 }
@@ -404,7 +445,7 @@ header .row .item p{
     font-size: 13px;
 }
 #wrraper-main footer nav .row .menu-list1{
-    width: 140px;
+    width: 122px;
 } 
 
 #wrraper-main footer nav .row .menu-list1 li a{
@@ -429,6 +470,7 @@ header .row .item p{
 }
 #wrraper-main footer nav .aferta p{
   margin-bottom: 5px;
+    font-family: "Arial"
 }
 #wrraper-main footer nav .aferta p span{
     border-bottom: 2px solid #ffffff;

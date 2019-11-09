@@ -60,14 +60,28 @@
 }
 
 @media screen and (max-width:707px){
-    
     #wrraper-main footer{
+         background: linear-gradient(30deg,#4297b4 10% ,#21659d 50%,#1a496c 80%);
+    }
+    #wrraper-main footer .wrraper{
         flex-flow: column;
         width: 100%;
     }
-    #wrraper-main footer>*{
+    #wrraper-main footer .wrraper>*{
         margin: auto;
         
+    }
+    #wrraper-main footer .wrraper .logo-contact{
+        display: none;
+    }
+    #wrraper-main footer .wrraper nav .contact{
+        text-align: center;
+        margin-top: 30px;
+        color: #ffffff;
+        font-family: "Arial"
+    }
+    #wrraper-main footer .wrraper nav .contact p{
+        margin-bottom: 12px;
     }
     #wrraper-main footer nav{
         width: 100%;
@@ -77,6 +91,7 @@
     }
     #wrraper-main footer nav .row{
         flex-flow: column;
+        margin-top: 20px;
     }
     #wrraper-main footer nav .row ul.menu-list1,
     #wrraper-main footer nav .row ul.menu-list2{
