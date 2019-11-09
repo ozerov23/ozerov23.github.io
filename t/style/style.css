@@ -59,14 +59,14 @@ header .row .item:nth-child(1) img{
     width: 100%;
 }
 header .row .item:nth-child(2){
-    padding-top: 10px;
+    padding-top: 12px;
     width: 39%;
 }
 header .row .item:nth-child(2) h1{
     font-family: 'EU';
     color: #1f588e;
     font-size: 34px;
-    margin-top: 12px;
+    margin-top: 16px;
     line-height: 1;
         
 }
