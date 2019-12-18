@@ -1,12 +1,35 @@
 $(document).ready(function(){
-	
+	/*
+        $("aside ul.sub-menu").each(function(i){
+                if($(this).is(".sub-menu")){
+                    var el = $(this).parent(".menu-item");
+                    el.children("a").addClass('amb').addClass("sub_menu");
+
+                }
+
+        });
+*/
+
+
+$("aside .menu-item-has-children>a").addClass('amb');
+
+
+$(".main-1 .menu-item-has-children").hover(function(){
+
+            $("nav .sub-menu").stop().slideDown(400);
+            },function(){
+
+                $("nav .sub-menu").stop().slideUp(400);
+
+});
+
 	var count=1;
 
-   $(".sub_menu").each(function(){
+   $("aside .menu-item-has-children>a").each(function( ){
     $(this).on("click",function(e){
          e.preventDefault();
     
-           var n_elem = $(this).next(".list-sub")
+           var n_elem = $(this).next(".sub-menu")
          
         
         
@@ -14,12 +37,12 @@ $(document).ready(function(){
         if(n_elem.is(":visible")==false){
             
             n_elem.slideDown(500);
-            $(this).addClass("amb");
-            $(this).removeClass("amt");
+            $(this).addClass("amt");
+            $(this).removeClass("amb");
             
         }else{
-              $(this).addClass("amt");
-              $(this).removeClass("amb");
+              $(this).addClass("amb");
+              $(this).removeClass("amt");
               n_elem.slideUp(500);
         }
         
@@ -35,7 +58,7 @@ $(document).ready(function(){
     $(".anim_list").each(function(){
         $(this).on("click",function(){
          
-        var n_elem = $(this).next(".list")
+        var n_elem = $(this).next(".menu")
          
      
         
@@ -66,6 +89,29 @@ $(document).ready(function(){
     });
     
     
+
+
+
+$(".category .item .card").each(function(){
+    $(this).hover(function(){
+        var s_el = $(this).next(".shadow");
+        
+        s_el.fadeIn(500)
+        
+    },function(){
+         var s_el = $(this).next(".shadow");
+        
+        s_el.fadeOut(500)
+        
+    });
+    
+    
+});
+
+
+
+
+
     
 	
 });

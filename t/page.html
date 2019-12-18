@@ -95,10 +95,20 @@
                               
                           </aside>
                           </div>
-                          <div class="info">
-                           <div class="slider">  
-
-                              
+                          <div class="info tours_page">
+                             <div class="name">
+                               <h2>Вековое эхо вокруг Долгих прудов</h2>
+                               <p>Долгопрудный - Спас-Котово - Виноградово</p>
+                                 
+                             </div>
+                             <div class="info-tours">
+                                 <p><span>Дата:</span> 14.09.19</p>
+                                 <p><span>Стоимость на человека</span> от 990 руб.</p>
+                                 <p><span>Продолжительсноть:</span> 5 дней</p>
+                             </div>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur repellendus excepturi possimus mollitia, quibusdam architecto incidunt veritatis. Obcaecati, saepe quas harum amet quasi eligendi itaque, aut, tempore, aperiam culpa reprehenderit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur repellendus excepturi possimus mollitia, quibusdam architecto incidunt veritatis. Obcaecati, saepe quas harum amet quasi eligendi itaque, aut, tempore, aperiam culpa reprehenderit
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur repellendus excepturi possimus mollitia, quibusdam architecto incidunt veritatis. Obcaecati, saepe quas harum amet quasi eligendi itaque, aut, tempore, aperiam culpa reprehenderit
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur repellendus excepturi possimus mollitia, quibusdam architecto incidunt veritatis. Obcaecati, saepe quas harum amet quasi eligendi itaque, aut, tempore, aperiam culpa reprehenderit</p>
                           </div>  
                       </section>
                       
@@ -161,3 +171,84 @@
   <script src="js/script.js"></script>
   </body>
 </html>
+<?php
+                            			$categories = get_categories( array(
+																'taxonomy'     => 'category',
+																'type'         => 'post',
+																'child_of'     => 0,
+																'parent'       => '',
+																'orderby'      => 'name',
+																'order'        => 'ASC',
+																'hide_empty'   => 0,
+																'hierarchical' => 0,
+																'exclude'      => '',
+																'include'      => '58',
+																'number'       => 0,
+																'pad_counts'   => false,
+																// полный список параметров смотрите в описании функции http://wp-kama.ru/function/get_terms
+															) );
+                            						
+													$images_raw  = get_option( 'taxonomy_image_plugin' ); // получаем все изображения в виде массива
+													if( $categories ){
+														foreach( $categories as $cat ){
+															// Данные в объекте $cat
+
+															// $cat->term_id
+															// $cat->name (Рубрика 1)
+															// $cat->slug (rubrika-1)
+															// $cat->term_group (0)
+															// $cat->term_taxonomy_id (4)
+															// $cat->taxonomy (category)
+															// $cat->description (Текст описания)
+															// $cat->parent (0)
+															// $cat->count (14)
+															// $cat->object_id (2743)
+															// $cat->cat_ID (4)
+															// $cat->category_count (14)
+															// $cat->category_description (Текст описания)
+															// $cat->cat_name (Рубрика 1)
+															// $cat->category_nicename (rubrika-1)
+															// $cat->category_parent (0)
+
+															$term_taxonomy_id = $category->term_taxonomy_id; // узнаем ID категории
+														    $term_taxonomy_name = $category->name;    // узнаем имя категории
+														    $term_taxonomy_image = wp_get_attachment_image( $images_raw[ $term_taxonomy_id ], 'full' );    // получаем прикрепленное изображение
+														    $term_taxonomy_link = get_term_link((int)$term_taxonomy_id, 'category' );    // получаем ссылку на соответствующую рубрику
+
+							
+
+															?>
+															<div class="item">
+															<div class="card">
+                                        							<div class="image">
+                                           <?php echo $term_taxonomy_image;?>
+                                        							</div>
+                                        						<p><?php echo $cat->cat_name ; ?></p>
+                                    							</div>
+                                    						<div class="shadow"></div>
+                                							</div>  
+                                						
+
+
+															<?php
+																}
+													}
+													?>
+
+
+
+
+$term_taxonomy_string .= '<div class="item">
+										                                  <div class="card">
+										                                  	<div class="image">'.$term_taxonomy_image.'</div>
+										                                  <p><a href="'.$term_taxonomy_link.'">'.$term_taxonomy_name.'</a></p>
+										                              </div></div>
+										                              
+										                              
+										                              echo $term_taxonomy_string;    // выводим сформированную ранее строку - рубрики с изображениями
+
+
+
+
+
+
