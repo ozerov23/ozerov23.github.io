@@ -1,0 +1,382 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video,.container-fluid{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	text-decoration: none;
+	list-style-type: none; 
+	box-sizing: padding-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+.container-fluid .row{
+    margin: 0px;
+    padding: 0px;
+}
+ .color{
+	color: orange;
+}
+.btn{
+	width: 180px;
+	text-align: center;
+	display: block;
+	padding: 10px 0px; 
+	border-radius: 210px;
+	background-color: orange;
+	color: #ffffff;
+	font-family: "Roboto";
+	text-transform: uppercase;
+}
+
+
+
+nav{
+	padding: 20px 0px 0px 0px;
+}
+nav .row:nth-child(1){
+	
+}
+nav .logo{
+	display: block;
+	width: 100%;
+}
+nav .logo h1{
+	font-size: 32px;
+	text-transform: uppercase;
+	font-family: Roboto;
+	color: #000000;
+}
+
+nav .logo p{
+	font-size: 12.6px;
+	font-family: Roboto;
+	color: #000000;
+}
+nav .contact{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;;
+}
+nav .contact .conection{
+	width: 213px;
+	margin-right: 20px;
+}
+nav .contact .conection p{
+	font-family: "Roboto";
+	
+	padding: 5px 0px 5px 40px;
+}
+nav .contact .conection p.phone{
+  background: url(../img/icons/phone.PNG) no-repeat left center;
+}
+nav .contact .conection p.mail{
+  background: url(../img/icons/mail.png) no-repeat left center;
+}
+nav .contact .conection p.mode{
+  background: url(../img/icons/mode.png) no-repeat left center;
+}
+nav .nav-menu{
+	padding: 20px;
+	background-color: #0F4EB5;
+	border-top: 10px solid orange;
+	margin-top: 12px;
+}
+nav .menu{
+	display: flex;
+	justify-content: space-around;
+	width: 800px;
+	margin: auto;
+}
+nav .nav-menu li a{
+	color: #ffffff;
+	font-family: "Roboto";
+}
+
+
+
+
+header{
+	background: url(../img/bg/main.jpg) no-repeat center;
+	background-size: cover;
+}
+header .bg{
+	padding: 130px 0px 150px 0px;
+	background-color: rgba(000,000,000,.7)
+}
+header .bg .content{
+  
+	margin: auto;
+}
+header .bg h1{
+	font-size: 60px;
+	font-family: "Roboto";
+	color: #ffffff;
+	text-align: center;
+}
+header .bg h2{
+	font-size: 25px;
+	font-family: "Roboto";
+	color: #ffffff;
+	text-align: center;
+}
+header .bg p{
+	color: #ffffff;
+	font-size: 21px;
+	font-family: "Roboto";
+	text-align: center;
+	margin-top: 16px;
+}
+header .bg h2{
+	margin-top: 12px;
+}
+header .bg .btn{
+    width: 230px;
+	background-color: #0F4EB5;
+	margin: auto;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+#service{
+	background-color: #0F4EB5;
+	padding: 70px 0px 70px 0px;
+}
+#service *{
+	padding: 0px;
+}
+#service>h1{
+	text-align: center;
+	font-family: "Roboto";
+	color: #ffffff;
+	font-size: 45px;
+}
+#service .wrraper{
+	
+	width: 810px;
+	margin: auto;
+	margin-top: 50px;
+}
+#service .wrraper .col-sm-6{
+	
+}
+#service .wrraper .col-sm-6 p{
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	color: #CE691E;
+	font-family: "Roboto";
+	background-color: #ffffff;
+	font-size: 18px;
+    cursor: pointer;
+}
+
+#service .wrraper .col-sm-6:nth-child(1) p{
+	border-top-left-radius: 120px;
+	border-bottom-left-radius: 120px;
+}
+#service .wrraper .col-sm-6:nth-child(2) p{
+	border-top-right-radius: 120px;
+	border-bottom-right-radius: 120px;
+}
+#service .wrraper .col-sm-6 .active{
+	background-color:  #CE691E;
+	color: #ffffff;
+
+}
+
+#service .wrraper .list-serv{
+	width: 100%;
+	margin-top: 30px;
+	
+}
+#service .wrraper .list-serv .block2{
+    display: none
+}
+
+#service .wrraper .list-serv .win{
+	display: flex;
+	flex-wrap: wrap;
+    align-items: flex-start;
+	
+}
+#service .wrraper .list-serv .win .item{
+	width: 260px;
+	padding-bottom: 12px;
+	background-color:#ffffff;
+	margin-top: 12px;
+    margin-right: 15px;
+}
+#service .wrraper .list-serv .win .item:nth-child(3n){
+    margin-right: 0px;
+}
+#service .wrraper .list-serv .win .item .image-block{
+	width: 100%;
+    height: 150px;
+}
+#service .wrraper .list-serv .win .item .image-block img{
+	width: 100%;
+    height: 100%;
+}
+#service .wrraper .list-serv .win .item h1{
+	text-align: center;
+	font-family: "Roboto";
+	margin-top: 12px;
+	font-size: 14px;
+}
+#service .wrraper .list-serv .win .item .des{
+     display: none;
+}
+#service .wrraper .list-serv .win .item p{
+	padding: 0px 10px;
+	font-family: "Roboto";
+	font-size: 14px;
+    margin: 10px;
+}
+#service .wrraper .list-serv .win .item h2{
+    text-align: center;
+    font-family: "Roboto";
+	font-size: 20px;
+    margin: 10px;
+    color: #CE691E;
+}
+#service .wrraper .list-serv .win .item button{
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-family: "Roboto";
+	font-size: 14px;
+    padding: 5px;
+    border:none;
+    background-color:  #CE691E;
+    color:#ffffff;
+    margin-top: 12px;
+}
+/*-=====*/
+#service .wrraper .list-serv .win2{
+	display: flex;
+	flex-wrap: wrap;
+    align-items: flex-start;
+}
+#service .wrraper .list-serv .win2 .item{
+	width: 260px;
+	padding-bottom: 12px;
+	background-color:#ffffff;
+	margin-top: 12px;
+    margin-right: 15px;
+}
+#service .wrraper .list-serv .win2 .item:nth-child(3n){
+    margin-right: 0px;
+}
+#service .wrraper .list-serv .win2 .item .image-block{
+	width: 100%;
+    height: 150px;
+}
+#service .wrraper .list-serv .win2 .item .image-block img{
+	width: 100%;
+    height: 100%;
+}
+#service .wrraper .list-serv .win2 .item h1{
+	text-align: center;
+	font-family: "Roboto";
+	margin-top: 12px;
+	font-size: 14px;
+}
+#service .wrraper .list-serv .win2 .item .des{
+    display: none;
+}
+#service .wrraper .list-serv .win2 .item p{
+	padding: 0px 10px;
+	font-family: "Roboto";
+	font-size: 14px;
+    margin: 10px;
+}
+#service .wrraper .list-serv .win2 .item h2{
+    text-align: center;
+    font-family: "Roboto";
+	font-size: 20px;
+    margin: 10px;
+    color: #CE691E;
+}
+#service .wrraper .list-serv .win2 .item button{
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-family: "Roboto";
+	font-size: 14px;
+    padding: 5px;
+    border:none;
+    background-color:  #CE691E;
+    color:#ffffff;
+    margin-top: 12px;
+}
+
+
+
+
+#advantages{
+    padding: 70px 0px 70px 0px;
+     
+}
+#advantages>h1{
+    text-align: center;
+	font-family: "Roboto";
+    color:#CE691E;
+	font-size: 45px;
+    margin-bottom: 50px;
+}
+#advantages .wrraper{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+#advantages .container-fluid {
+   
+}
+#advantages .container-fluid .row:nth-child(1){
+    margin-bottom: 12px;
+}
+#advantages .container-fluid .col-md-4{
+    
+}
+
+#advantages .container-fluid .col-md-3 img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-bottom: 22px;
+}
+#advantages .container-fluid .col-md-3 h1{
+    font-family: "Roboto";
+	font-size: 16px;
+    text-align: center;
+    margin-bottom: 12px;
+    color:#CE691E;
+}
+#advantages .container-fluid .col-md-3 p{
+    font-family: "Roboto";
+	font-size: 13px;
+    text-align: center;
+    color:#CE691E;
+}
+
+
+
+
+
+
+
+
+
+

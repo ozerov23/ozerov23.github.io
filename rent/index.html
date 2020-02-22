@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
     <link rel="stylesheet" href="style/style.css">   
     <link rel="stylesheet" href="style/sidebar.css">
+    <link rel="stylesheet" href="style/media.css">
     <title>Dublin Pub</title>
   </head>
   <body>
@@ -97,25 +99,122 @@
                         <div class="date">
                          <div class="field">
                          	<p>Дата приёма</p>
-                         	<input type="text">
+                         	<input type="text" id="datepicker1">
                          </div>
                          <div class="field">
                          	<p>Дата Возврата</p>
-                         	<input type="text">
+                         	<input type="text" id="datepicker2">
                          </div>
-                        	
                         </div>
                      </div>
                      <div class="col-md-2">
                          <div class="time">
                          	<div class="field">
 								<p>Дата приёма</p>
-								<input type="text">
+								<select name="" id="">
+									<option value="">00:00</option>
+									<option value="">00:30</option>
+									<option value="">01:00</option>
+									<option value="">01:30</option>
+									<option value="">02:00</option>
+									<option value="">02:30</option>
+									<option value="">03:00</option>
+									<option value="">03:30</option>
+									<option value="">04:00</option>
+									<option value="">04:30</option>
+									<option value="">05:00</option>
+									<option value="">05:30</option>
+									<option value="">06:00</option>
+									<option value="">06:30</option>
+									<option value="">07:00</option>
+									<option value="">07:30</option>
+									<option value="">08:00</option>
+									<option value="">08:30</option>
+									<option value="">09:00</option>
+									<option value="">09:30</option>
+									<option value="">10:00</option>
+									<option value="">10:30</option>
+									<option value="">11:00</option>
+									<option value="">11:30</option>
+									<option value="">12:00</option>
+									<option value="">12:30</option>
+									<option value="">13:00</option>
+									<option value="">13:30</option>
+									<option value="">14:00</option>
+									<option value="">14:30</option>
+									<option value="">15:00</option>
+									<option value="">15:30</option>
+									<option value="">16:00</option>
+									<option value="">16:30</option>
+									<option value="">17:00</option>
+									<option value="">17:30</option>
+									<option value="">18:00</option>
+									<option value="">18:30</option>
+									<option value="">19:00</option>
+									<option value="">19:30</option>
+									<option value="">20:00</option>
+									<option value="">20:30</option>
+									<option value="">21:00</option>
+									<option value="">21:30</option>
+									<option value="">22:00</option>
+									<option value="">22:30</option>
+									<option value="">23:00</option>
+									<option value="">23:30</option>
+								</select>
                          	</div>
                          	
 							 <div class="field">
 								<p>Дата Возврата</p>
-								<input type="text">
+								<select name="" id="">
+									<option value="">00:00</option>
+									<option value="">00:30</option>
+									<option value="">01:00</option>
+									<option value="">01:30</option>
+									<option value="">02:00</option>
+									<option value="">02:30</option>
+									<option value="">03:00</option>
+									<option value="">03:30</option>
+									<option value="">04:00</option>
+									<option value="">04:30</option>
+									<option value="">05:00</option>
+									<option value="">05:30</option>
+									<option value="">06:00</option>
+									<option value="">06:30</option>
+									<option value="">07:00</option>
+									<option value="">07:30</option>
+									<option value="">08:00</option>
+									<option value="">08:30</option>
+									<option value="">09:00</option>
+									<option value="">09:30</option>
+									<option value="">10:00</option>
+									<option value="">10:30</option>
+									<option value="">11:00</option>
+									<option value="">11:30</option>
+									<option value="">12:00</option>
+									<option value="">12:30</option>
+									<option value="">13:00</option>
+									<option value="">13:30</option>
+									<option value="">14:00</option>
+									<option value="">14:30</option>
+									<option value="">15:00</option>
+									<option value="">15:30</option>
+									<option value="">16:00</option>
+									<option value="">16:30</option>
+									<option value="">17:00</option>
+									<option value="">17:30</option>
+									<option value="">18:00</option>
+									<option value="">18:30</option>
+									<option value="">19:00</option>
+									<option value="">19:30</option>
+									<option value="">20:00</option>
+									<option value="">20:30</option>
+									<option value="">21:00</option>
+									<option value="">21:30</option>
+									<option value="">22:00</option>
+									<option value="">22:30</option>
+									<option value="">23:00</option>
+									<option value="">23:30</option>
+								</select>
 							 </div>
                          </div>
                      </div>
@@ -136,9 +235,7 @@
        
      <section id="cars">
 			   <div class="wrraper">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-6">
+							<div class="column">
 							<div class="item">
 								<div class="image">
 									<img src="img/car.png" alt="">
@@ -148,52 +245,7 @@
 								    <div class="h-reating">
 								    	<h1>Mercedes-Bens,  <span>2019</span></h1>
 								    	
-								    	<div class="reat">
-								    		<img src="img/icons/heart.png" alt="">
-								    		<img src="img/icons/star.png" alt="">
-								    		<p>10</p>
-								    	</div>
-								    </div>
-									
-									
-									<div class="characteristics">
-									
-									    <div class="items">
-											<p>до 50 тыс. км.</p>
-											<p>Бензин</p>
-											<p>Автоматическая</p>
-											<p>4 чел.</p>
-									    </div>
-									</div>
-									<div class="btn-field">
-										<select name="" id="">
-											<option value="">100&#8364;  в сутки</option>
-										</select>
-										
-										
-										
-										<button>Забронировать</button>
-									</div>
-										
-										
-									
-
-								</div>
-								</div>
-     						<div class="item">
-								<div class="image">
-									<img src="img/car.png" alt="">
-								</div>
-								<div class="info">
-								
-								    <div class="h-reating">
-								    	<h1>Mercedes-Bens,  <span>2019</span></h1>
 								    	
-								    	<div class="reat">
-								    		<img src="img/icons/heart.png" alt="">
-								    		<img src="img/icons/star.png" alt="">
-								    		<p>10</p>
-								    	</div>
 								    </div>
 									
 									
@@ -206,7 +258,7 @@
 											<p>4 чел.</p>
 									    </div>
 									</div>
-									<div class="btn-field">
+									<form action="">
 										<select name="" id="">
 											<option value="">100&#8364;  в сутки</option>
 										</select>
@@ -214,62 +266,21 @@
 										
 										
 										<button>Забронировать</button>
+									</form>
 									</div>
 										
 										
 									
 
 								</div>
-     						</div>
-     						<div class="item">
-								<div class="image">
-									<img src="img/car.png" alt="">
 								</div>
-								<div class="info">
-								
-								    <div class="h-reating">
-								    	<h1>Mercedes-Bens,  <span>2019</span></h1>
-								    	
-								    	<div class="reat">
-								    		<img src="img/icons/heart.png" alt="">
-								    		<img src="img/icons/star.png" alt="">
-								    		<p>10</p>
-								    	</div>
-								    </div>
-									
-									
-									<div class="characteristics">
-									
-									    <div class="items">
-											<p>до 50 тыс. км.</p>
-											<p>Бензин</p>
-											<p>Автоматическая</p>
-											<p>4 чел.</p>
-									    </div>
-									</div>
-									<div class="btn-field">
-										<select name="" id="">
-											<option value="">100&#8364;  в сутки</option>
-										</select>
-										
-										
-										
-										<button>Забронировать</button>
-									</div>
-										
-										
-									
-
-								</div>
-     						</div>
-							</div>
-							<div class="col-md-6">
+							<div class="column">
 							<div class="switch">
 								<h1>Выбор пользователей</h1>
 								<h1>Недавно добавленные</h1>
 							</div>
 							<div class="win">
-								<div class="item-big">
+								<div class="item">
 									<div class="image">
 										<img src="img/car1.png" alt="">
 									</div>
@@ -277,12 +288,6 @@
 								
 								    <div class="h-reating">
 								    	<h1>Mercedes-Bens,  <span>2019</span></h1>
-								    	
-								    	<div class="reat">
-								    		<img src="img/icons/heart.png" alt="">
-								    		<img src="img/icons/star.png" alt="">
-								    		<p>10</p>
-								    	</div>
 								    </div>
 									
 									
@@ -295,7 +300,7 @@
 											<p>4 чел.</p>
 									    </div>
 									</div>
-									<div class="btn-field">
+									<form action="">
 										<select name="" id="">
 											<option value="">100&#8364;  в сутки</option>
 										</select>
@@ -303,7 +308,7 @@
 										
 										
 										<button>Забронировать</button>
-									</div>
+									</form>
 								</div>
 									
 									
@@ -316,12 +321,6 @@
 								
 								    <div class="h-reating">
 								    	<h1>Mercedes-Bens,  <span>2019</span></h1>
-								    	
-								    	<div class="reat">
-								    		<img src="img/icons/heart.png" alt="">
-								    		<img src="img/icons/star.png" alt="">
-								    		<p>10</p>
-								    	</div>
 								    </div>
 									
 									
@@ -334,7 +333,7 @@
 											<p>4 чел.</p>
 									    </div>
 									</div>
-									<div class="btn-field">
+									<form action="">
 										<select name="" id="">
 											<option value="">100&#8364;  в сутки</option>
 										</select>
@@ -342,7 +341,7 @@
 										
 										
 										<button>Забронировать</button>
-									</div>
+									</form>
 										
 										
 									
@@ -352,44 +351,47 @@
 							</div>
 							
 							</div>
-						</div>
-					</div>
-			   </div>
+							</div>
+     						
+						
+							
+					
      </section>
-       
-     <section id="class-car">
-     	<div class="wrraper">
-     		<div class="item">
-     			<h1>Эконом</h1>
-     			<p>от  100&#8364;  в сутки</p>
-     		</div>
-     		<div class="item">
-     			<h1>Стандарт</h1>
-     			<p>от  100&#8364;  в сутки</p>
-     		</div>
-     		<div class="item">
-     			<h1>Бизнес</h1>
-     			<p>от  100&#8364;  в сутки</p>
-     		</div>
-     		<div class="item">
-     			<h1>Премиум</h1>
-     			<p>от  100&#8364;  в сутки</p>
-     		</div>
-     		<div class="item">
-     			<h1>Внедорожник</h1>
-     			<p>от  100&#8364;  в сутки</p>
-     		</div>
-     		<div class="item">
-     			<h1>Минивэн</h1>
-     			<p>от  100&#8364;  в сутки</p>
-     		</div>
-     	</div>
-     </section>   
+	  <section id="class-car">
+	  	<form action="">
+	  		<div class="item">
+	  		<input type="submit" value="Эконом">
+	  		<p>от 100€ в сутки</p>
+			</div>
+			<div class="item">
+	  		<input type="submit" value="Стандарт">
+	  		<p>от 100€ в сутки</p>
+			</div>
+			<div class="item">
+	  		<input type="submit" value="Бизнес">
+	  		<p>от 100€ в сутки</p>
+			</div>
+			<div class="item">
+	  		<input type="submit" value="Премиум">
+	  		<p>от 100€ в сутки</p>
+			</div>
+			<div class="item">
+	  		<input type="submit" value="Внедорожник">
+	  		<p>от 100€ в сутки</p>
+			</div>
+			<div class="item">
+	  		<input type="submit" value="Минивэн">
+	  		<p>от 100€ в сутки</p>
+			</div>
+			
+	  	</form>
+	  </section>  
+     
        
      <section id="place">
-		<div class="wrraper">
+		
 			<h1>Готовые маршруты по Кипру</h1>
-		</div>
+		
      	<div class="wrraper">
      		<div class="place">
      			<h1>ПО ПЛЯЖАМ<br> ЮЖНОГО КИПРА</h1>
@@ -401,28 +403,32 @@
      	
      </section>  
      <section id="class-car2">
-     	<div class="wrraper">
+     	
 			<h1>Подборка автомобилей для вас</h1>
-		</div>
-		<div class="wrraper">
+			
+	<form action="">
 			<div class="item">
-				<h1>СЕМЕЙНЫЕ АВТОМОБИЛИ</h1>
+	  		<input type="submit" value="Семеные автомобили">
+	  	
 			</div>
 			<div class="item">
-				<h1>СПОРТИВНЫЕ АВТОМОБИЛИ</h1>
+	  		<input type="submit" value="Спортивные автомобили">
+	  		
 			</div>
 			<div class="item">
-				<h1>ВНЕДОРОЖНИКИ</h1>
+	  		<input type="submit" value="Внедорожники">
+	  		
 			</div>
 			<div class="item">
-				<h1>БИЗНЕС АВТОМОБИЛИ</h1>
+	  		<input type="submit" value="Бизнес автомобили">
+	  		
 			</div>
-		</div> 
+		 </form>
      </section>  
      <section id="sight">
-     	<div class="wrraper">
+     	
 			<h1>Достопримечательности</h1>
-		</div>
+	
 		<div class="wrraper">
 			<div class="item">
 				<h1>Протос</h1>
@@ -460,6 +466,7 @@
      	</div>
      </footer>  
       <script src="js/jquery-3.2.0.min.js"></script>
+      <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
       <script src="js/script.js"></script>
   </body>
 </html>
