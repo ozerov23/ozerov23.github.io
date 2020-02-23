@@ -35,7 +35,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 
-
 nav{
 	padding: 20px 0px 0px 0px;
 }
@@ -47,14 +46,16 @@ nav .logo{
 	width: 100%;
 }
 nav .logo h1{
-	font-size: 32px;
+	font-size: 45px;
 	text-transform: uppercase;
 	font-family: Roboto;
 	color: #000000;
+    text-align: center;
 }
 
 nav .logo p{
-	font-size: 12.6px;
+	font-size: 17px;
+    text-align: center;
 	font-family: Roboto;
 	color: #000000;
 }
@@ -146,6 +147,89 @@ header .bg .btn{
 
 
 
+#fault{
+    padding: 70px 0px 70px 0px;
+   
+}
+
+#fault>h1{
+	text-align: center;
+	font-family: "Roboto";
+	color:#0F4EB5;
+	font-size: 45px;
+    text-transform: uppercase
+}
+#fault .wrraper{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+	width: 900px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+#fault .wrraper .item{
+    width: 290px;
+    background-color: #0F4EB5;
+    padding: 20px 0px;
+    border: 4px solid #CE691E;;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+#fault .wrraper .item .img-des{
+     display: flex;
+    justify-content: space-around;
+    
+}
+#fault .wrraper .item .img-des img{
+    width:85px;
+    height: 85px;
+}
+#fault .wrraper .item .img-des .h-p{
+    width: 120px;
+}
+#fault .wrraper .item .img-des h1{
+    font-size: 19px;
+    font-family: "Roboto";
+    text-align: right;
+
+    color: #ffffff;
+}
+#fault .wrraper .item .img-des p{
+    text-align: right;
+   
+    font-family: "Roboto";
+    color: #ffffff;
+    margin-top: 12px;
+}
+
+#fault .wrraper .item button{
+    width: 200px;
+    display: block;
+    margin: auto;
+    outline: none;
+    margin-top: 22px;
+    padding: 10px;
+    border: none;
+    font-family: "Roboto";
+    background-color:  #CE691E;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 #service{
@@ -167,10 +251,10 @@ header .bg .btn{
 	margin: auto;
 	margin-top: 50px;
 }
-#service .wrraper .col-sm-6{
+#service .wrraper .col-sm-4{
 	
 }
-#service .wrraper .col-sm-6 p{
+#service .wrraper .col-sm-4 p{
 	width: 100%;
 	text-align: center;
 	padding: 20px;
@@ -181,15 +265,15 @@ header .bg .btn{
     cursor: pointer;
 }
 
-#service .wrraper .col-sm-6:nth-child(1) p{
+#service .wrraper .col-sm-4:nth-child(1) p{
 	border-top-left-radius: 120px;
 	border-bottom-left-radius: 120px;
 }
-#service .wrraper .col-sm-6:nth-child(2) p{
+#service .wrraper .col-sm-4:nth-child(3) p{
 	border-top-right-radius: 120px;
 	border-bottom-right-radius: 120px;
 }
-#service .wrraper .col-sm-6 .active{
+#service .wrraper .col-sm-4 .active{
 	background-color:  #CE691E;
 	color: #ffffff;
 
@@ -200,129 +284,58 @@ header .bg .btn{
 	margin-top: 30px;
 	
 }
-#service .wrraper .list-serv .block2{
-    display: none
-}
-
-#service .wrraper .list-serv .win{
-	display: flex;
-	flex-wrap: wrap;
-    align-items: flex-start;
-	
-}
-#service .wrraper .list-serv .win .item{
-	width: 260px;
-	padding-bottom: 12px;
-	background-color:#ffffff;
-	margin-top: 12px;
-    margin-right: 15px;
-}
-#service .wrraper .list-serv .win .item:nth-child(3n){
-    margin-right: 0px;
-}
-#service .wrraper .list-serv .win .item .image-block{
-	width: 100%;
-    height: 150px;
-}
-#service .wrraper .list-serv .win .item .image-block img{
-	width: 100%;
-    height: 100%;
-}
-#service .wrraper .list-serv .win .item h1{
-	text-align: center;
-	font-family: "Roboto";
-	margin-top: 12px;
-	font-size: 14px;
-}
-#service .wrraper .list-serv .win .item .des{
-     display: none;
-}
-#service .wrraper .list-serv .win .item p{
-	padding: 0px 10px;
-	font-family: "Roboto";
-	font-size: 14px;
-    margin: 10px;
-}
-#service .wrraper .list-serv .win .item h2{
-    text-align: center;
+#service .wrraper .list-serv .des-serv{
+    display: flex;
+    justify-content: space-between;
     font-family: "Roboto";
-	font-size: 20px;
-    margin: 10px;
-    color: #CE691E;
-}
-#service .wrraper .list-serv .win .item button{
-    display: block;
-    width: 90%;
-    margin: auto;
-    font-family: "Roboto";
-	font-size: 14px;
-    padding: 5px;
-    border:none;
-    background-color:  #CE691E;
     color:#ffffff;
-    margin-top: 12px;
+    border-bottom: 4px solid #CE691E;
+    
 }
-/*-=====*/
-#service .wrraper .list-serv .win2{
-	display: flex;
-	flex-wrap: wrap;
-    align-items: flex-start;
+#service .wrraper .list-serv  .des-serv p{
+    padding-bottom: 10px;
+    font-size: 25px;
 }
-#service .wrraper .list-serv .win2 .item{
-	width: 260px;
-	padding-bottom: 12px;
-	background-color:#ffffff;
-	margin-top: 12px;
-    margin-right: 15px;
-}
-#service .wrraper .list-serv .win2 .item:nth-child(3n){
-    margin-right: 0px;
-}
-#service .wrraper .list-serv .win2 .item .image-block{
-	width: 100%;
-    height: 150px;
-}
-#service .wrraper .list-serv .win2 .item .image-block img{
-	width: 100%;
-    height: 100%;
-}
-#service .wrraper .list-serv .win2 .item h1{
-	text-align: center;
-	font-family: "Roboto";
-	margin-top: 12px;
-	font-size: 14px;
-}
-#service .wrraper .list-serv .win2 .item .des{
+#service .wrraper .list-serv .w1{
     display: none;
 }
-#service .wrraper .list-serv .win2 .item p{
-	padding: 0px 10px;
-	font-family: "Roboto";
-	font-size: 14px;
-    margin: 10px;
+#service .wrraper .list-serv .w2{
+    display: none;
 }
-#service .wrraper .list-serv .win2 .item h2{
-    text-align: center;
-    font-family: "Roboto";
-	font-size: 20px;
-    margin: 10px;
-    color: #CE691E;
+#service .wrraper .list-serv .win .list .serv{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    border-bottom: 1px solid #ffffff;
 }
-#service .wrraper .list-serv .win2 .item button{
-    display: block;
-    width: 90%;
-    margin: auto;
+#service .wrraper .list-serv .win .list .serv h1{
     font-family: "Roboto";
-	font-size: 14px;
-    padding: 5px;
-    border:none;
-    background-color:  #CE691E;
     color:#ffffff;
-    margin-top: 12px;
+    font-size: 19px;
+} 
+#service .wrraper .list-serv .win .list .serv .price{
+     font-size: 19px;
+    font-family: "Roboto";
+    color:#ffffff;
+    text-align: right;
 }
 
-
-
+#service .wrraper .list-serv .win .list .serv .p-c{
+    width: 140px;
+    
+}
+#service .wrraper .list-serv .win .list .serv .p-c button{
+    width: 100%;
+    margin-top: 12px;
+    padding:5px;
+    font-family: "Roboto";
+    background-color:  #CE691E;
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
 
 #advantages{
     padding: 70px 0px 70px 0px;
@@ -371,6 +384,57 @@ header .bg .btn{
     color:#CE691E;
 }
 
+#stages{
+      padding: 70px 0px 70px 0px;
+      background-color: #0F4EB5;
+
+}
+
+#stages>h1{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 45px;
+    color: #ffffff;
+}
+
+#stages .wrraper{
+    width: 1000px;
+    margin: auto;
+    margin-top: 52px;
+}
+#stages .wrraper *{
+    margin: 0px;
+    padding: 0px;
+}
+#stages .wrraper .block{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     font-family: "Roboto";
+    border: 10px solid #ffffff;
+    color: #ffffff;
+}
+#stages .wrraper h1{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 28px;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+#stages .wrraper p{
+    text-align: center;
+    margin-top: 12px;
+    font-family: "Roboto";
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 13px;
+}
 
 
 
@@ -380,3 +444,144 @@ header .bg .btn{
 
 
 
+#offer{
+    background-color:#CE691E;
+}
+#offer .wrraper{
+    width: 1000px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#offer .wrraper img{
+    width: 100%;
+}
+#offer .wrraper h1{
+    margin-bottom: 42px;
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #ffffff;
+}
+#offer .wrraper p{
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+#offer .wrraper form{
+   display: flex;
+   margin-top: 20px;
+}
+#offer .wrraper form input{
+    padding: 13px;
+    font-family: "Roboto";
+}
+#offer .wrraper form input[type="text"]{
+    width: 70%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:none;
+    outline: none;
+}
+#offer .wrraper form input[type="submit"]{
+    width: 50%;
+    border-radius: 20px;
+    margin-left: -20px;
+    border: none;
+    outline: none;
+    background-color: #0F4EB5;
+    color: #ffffff;
+}
+
+#question{
+    padding: 70px 0px;
+}
+#question .col-md-6:nth-child(2){
+    display: flex;
+    align-items: flex-end;
+}
+#question img{
+    display: block;
+    width: 100%;
+   
+}
+
+#question h1{ 
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #0F4EB5;
+}
+
+#question .q-a{
+    border-right: 2px solid #CE691E;;
+}
+#question .q-block{
+    width: 100%;
+    margin-top: 12px;
+}
+
+#question .q-block .q .c-o{
+     width: 40px;
+     height: 40px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+}
+
+
+#question .q-block .q{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+#question .q-block p{
+   font-family: "Roboto";
+    font-size: 25px;
+    margin-left: 20px;
+    width: 86%
+}
+#question .an{
+    display: none;
+}
+#question .an p{ 
+    font-family: "Roboto";
+    padding-right: 5px;
+}
+#question .an p.sep{
+    margin-top: 20px;
+}
+
+
+#contact{
+    padding: 40px 0px;
+    background-color:  #0F4EB5;;
+    
+}
+#contact h1{
+    font-family: "Roboto";
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#contact form{
+     width: 80%;
+    margin: auto;
+}
+#contact form *{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 12px;
+    
+}
+#contact form textarea{
+    height: 110px;
+}
+#contact form input[type="submit"]{
+    width: 300px;
+    margin: auto;
+    
+}
