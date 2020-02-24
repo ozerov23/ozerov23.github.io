@@ -508,12 +508,13 @@ header .bg .btn{
 
 #question h1{ 
     font-family: "Roboto";
-    font-size: 40px;
+    font-size: 35px;
     color: #0F4EB5;
+    text-transform: uppercase;
 }
 
 #question .q-a{
-    border-right: 2px solid #CE691E;;
+    border-right: 2px solid #CE691E;
 }
 #question .q-block{
     width: 100%;
@@ -556,8 +557,16 @@ header .bg .btn{
 
 #contact{
     padding: 40px 0px;
-    background-color:  #0F4EB5;;
+    background-color:  #0F4EB5;
     
+}
+#contact .wrraper div{
+    padding: 0px;
+    margin: 0px;
+}
+#contact .wrraper{
+    width: 810px;
+    margin: auto;
 }
 #contact h1{
     font-family: "Roboto";
@@ -565,10 +574,11 @@ header .bg .btn{
     text-align: center;
     font-size: 32px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 #contact form{
-     width: 80%;
-    margin: auto;
+     width: 90%;
+     margin: auto
 }
 #contact form *{
     width: 100%;
@@ -579,9 +589,25 @@ header .bg .btn{
 }
 #contact form textarea{
     height: 110px;
+    resize: none;
 }
 #contact form input[type="submit"]{
-    width: 300px;
+    width: 100%;
     margin: auto;
-    
+    background-color: #CE691E;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+
+#contact .wrraper p{
+  padding-left: 80px; 
+  text-transform: uppercase;
+  font-family: "Roboto";
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
