@@ -37,4 +37,65 @@ $(document).ready(function(){
             $(this).parents('.q-block').next(".an").slideToggle(1200);
         });
     });
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+        
+                
+      $('#fault .item button').each(function(){
+          
+      
+        
+        $(this).click(function(){
+           $("#about-win").fadeIn(1500);
+            
+            var h1 = $(this).parent(".item").find("h1");
+            console.log(h1.text());
+           
+            var h1_win =  $("#about-win").find("h1");
+            
+            h1_win.text('dddd')
+        });
+        
+      });
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 });
