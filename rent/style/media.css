@@ -1,0 +1,252 @@
+@media screen and (max-width:1250px){
+	#sight .wrraper:nth-child(2){
+		flex-wrap: wrap;
+	}
+	#sight .wrraper:nth-child(2) .item{
+		width: 240px;
+		margin: auto;
+		margin-bottom: 12px;
+	}
+	
+	
+}
+
+
+
+
+
+
+@media screen and (max-width:1220px){
+	#cars .wrraper{
+		width: 910px;
+	}
+	#cars .wrraper .column:nth-child(1){
+		width: 400px
+	}
+	#cars .wrraper .column:nth-child(2){
+		width: 500px;
+	}
+	#cars .wrraper .column:nth-child(1) .item .image{
+		width: 
+	}
+	#cars .wrraper .column:nth-child(1) .item .info{
+		width: 300px;
+	}
+	#cars .wrraper .column:nth-child(1) .item .info form{
+		width: 95%;
+	}
+	#cars .wrraper .column:nth-child(1) .item .info form select{
+		width: 120px;
+	}
+	
+	#cars  .wrraper .column:nth-child(2) .win .item:nth-child(1){
+	display: block;
+	}
+
+	#cars  .wrraper  .win  .item:nth-child(1){
+		margin: 20px 0px;
+		padding-bottom: 20px;
+		border-radius: 26px;
+		border: 2px solid #e2e2e2;
+	}
+
+	#cars  .wrraper .column:nth-child(2) .win .item:nth-child(1) .image{
+		width: 100%;
+	}
+
+	#cars  .wrraper .column:nth-child(2) .win .item:nth-child(1) .image img{
+		width: 100%;
+	}
+	#cars  .wrraper .column:nth-child(2) .win .item:nth-child(1) .info{
+		width: 100%;
+		border: none;
+		border-radius: 0;
+	}
+	#cars  .wrraper .column:nth-child(2)  .win .item:nth-child(1) .info .h-reating{
+		width:90%;
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		margin: auto;
+	}
+
+	#cars  .wrraper .column:nth-child(2)  .win .item:nth-child(1) .info .h-reating h1{
+		padding: 10px 0px;
+		font-weight: bold;
+		font-size: 20px;
+		width: 210px;
+	}
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .info h1 span{
+		color: #747474;
+		font-weight: normal;
+	}
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .h-reating .reat {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+		width: 80px;
+	}
+
+
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .characteristics{
+		width:100%;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #e2e2e2;
+		margin-bottom: 20px;
+	}
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .characteristics .items{
+		width:100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .characteristics p{
+		width: 130px;
+		padding: 2px 0px 2px 0px;
+		font-size: 14px;
+		text-align: right;
+	}
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .characteristics p:nth-child(1){
+		background: url(../img/icons/road.png) no-repeat center left;
+	}
+	#cars .wrraper .column:nth-child(2)   .win .item:nth-child(1) .characteristics p:nth-child(2){
+		background: url(../img/icons/oil.png) no-repeat center left;
+		text-align: right;
+		width: 100px;
+	}
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .characteristics p:nth-child(3){
+		background: url(../img/icons/at.png) no-repeat center left;
+
+	}
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .characteristics p:nth-child(4){
+		background: url(../img/icons/men.png) no-repeat center left;
+		width: 100px;
+		text-align: center;
+	}
+
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .info select{
+		width: 150px;
+		padding: 5px 0px;
+		text-align: center;
+		border-radius: 120px;
+		outline:none;
+
+	}
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .info form{
+		width: 90%;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	#cars .wrraper .column:nth-child(2)  .win .item:nth-child(1) .info .btn-field button{
+		font-size: 14px;
+		width: 130px;
+		outline: none;
+		background-color: #ff6501;
+		border: none;
+		color: #ffffff;
+		border-radius: 20px;
+	}
+
+
+}
+@media screen and (max-width:1216px){
+	#place .wrraper:nth-child(1) h1{
+		text-align: center;
+	}
+	
+	
+}
+@media screen and (max-width:940px){
+	#cars .wrraper{
+		width: 500px;
+		flex-flow: column;
+	}
+	#cars .wrraper .column:nth-child(1),#cars .wrraper .column:nth-child(2){
+		width: 100%;
+	}
+	#cars .wrraper .column:nth-child(1) .item .info{
+		width: 400px;
+	}
+	
+	#sight .wrraper:nth-child(1) h1{
+		text-align: center;
+	}
+	
+	
+	
+}
+@media screen and (max-width:950px){
+	#class-car2 .wrraper:nth-child(2){
+		width: 60%
+	}
+	#class-car2 .wrraper:nth-child(1) h1{
+		text-align: center;
+	}
+	#class-car2 .wrraper:nth-child(2) .item{
+		margin: auto;
+		margin-bottom: 20px
+	}
+	
+	
+	
+	
+	
+}
+
+
+@media screen and (max-width:660px){
+	
+	#place .wrraper:nth-child(2) .place{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width:560px){
+	#cars  .wrraper .column:nth-child(2) .switch h1{
+	font-size: 14px;
+		}	
+	#cars .wrraper{
+		width: 350px;
+		}
+	
+	#cars .wrraper .column:nth-child(1) .item .info{
+		width: 200px;
+	}
+	#cars .wrraper .column .item .info .characteristics .items{
+		width: 100%;
+	}
+	#cars .wrraper .column .item .info .characteristics .items p{
+		width: 100%;
+		text-align: center;
+	}
+	#cars .wrraper .column .item .info form select{
+		display: none;
+	}
+	#cars .wrraper .column .item .info form button{
+		display: block;
+		margin: auto;
+	}	
+	#cars .wrraper .column .item .info{
+		width: 200px;
+	}
+	#cars .wrraper .column .item .info .characteristics .items{
+		width: 100%;
+	}
+	#cars .wrraper .column .item .info .characteristics .items p{
+		width: 100%;
+		text-align: center;
+	}
+	#cars .wrraper .column .item .info form select{
+		display: none;
+	}
+	#cars .wrraper .column .item .info form button{
+		display: block;
+		margin: auto;
+	}
+}

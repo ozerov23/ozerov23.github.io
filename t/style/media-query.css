@@ -1,0 +1,161 @@
+@media screen and (max-width:1042px){
+    #wrraper-main{
+        width: 90%
+    }
+    
+}
+@media screen and (max-width:1001px){
+    #wrraper-main footer nav{
+      width: 450px;
+    }
+    #wrraper-main footer nav .row{
+        width:100%;
+        justify-content: space-around;
+    }
+    #wrraper-main footer nav .row .menu-list1{
+    width: 130px;
+    } 
+
+#wrraper-main footer nav .row .menu-list2{
+    width: 145px;
+    }
+
+}
+@media screen and (max-width:925px){
+    #wrraper-main .content .info .month-list .wrraper{
+           width: 90%;
+}
+    #wrraper-main .content .info .tours .t{
+        width: 80%;
+        flex-flow: column;
+    }
+    #wrraper-main .content .info .tours .t .img-pr{
+        margin: auto
+    }
+    #wrraper-main .content .info .tours .t  .desc{
+        width: 100%;
+        
+    }
+    #wrraper-main .content .info .tours .t  .desc *{
+        text-align: center;
+    }
+    #wrraper-main .content .info .tours .t  .desc a{
+        display: inline-block;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:771px){
+    #wrraper-main .content{
+        flex-flow: column;
+    }
+    #wrraper-main .content .sidebar{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #wrraper-main .content .info{
+        width:80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:707px){
+    #wrraper-main footer{
+         background: linear-gradient(30deg,#4297b4 10% ,#21659d 50%,#1a496c 80%);
+    }
+    #wrraper-main footer .wrraper{
+        flex-flow: column;
+        width: 100%;
+    }
+    #wrraper-main footer .wrraper>*{
+        margin: auto;
+        
+    }
+    #wrraper-main footer .wrraper .logo-contact{
+        display: none;
+    }
+    #wrraper-main footer .wrraper nav .contact{
+        text-align: center;
+        margin-top: 30px;
+        color: #ffffff;
+        font-family: "Arial"
+    }
+    #wrraper-main footer .wrraper nav .contact p{
+        margin-bottom: 12px;
+    }
+    #wrraper-main footer nav{
+        width: 100%;
+    }
+    #wrraper-main footer nav h1{
+        text-align: center;
+    }
+    #wrraper-main footer nav .row{
+        flex-flow: column;
+        margin-top: 20px;
+    }
+    #wrraper-main footer nav .row ul.menu-list1,
+    #wrraper-main footer nav .row ul.menu-list2{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #wrraper-main footer nav .aferta{
+        width: 100%;
+    }
+    #wrraper-main footer nav .aferta p{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:822px){
+    #wrraper-main{
+        width: 93%;
+    }
+    #wrraper-main header .row .item{
+        width: 100%
+    }
+    #wrraper-main header .row .item:nth-child(1){
+        width: 50%;
+    }
+    #wrraper-main header .row .item:nth-child(2){
+        display: none;
+    }
+    #wrraper-main header .row .item:nth-child(3) p{
+        text-align: center;
+    }
+    #wrraper-main header nav{
+        padding: 20px 0px;
+    }
+    #wrraper-main header nav .btn{
+        display: block;
+        margin: auto;
+    }
+    #wrraper-main header nav .main-1{
+        display: none;
+    }
+    
+}

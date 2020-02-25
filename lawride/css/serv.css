@@ -1,0 +1,589 @@
+*{
+    
+}
+.header_area .navbar .nav .nav-item .nav-link{
+    font-size: 20px;
+}
+.header_area .navbar{padding:10px 0}
+#bg-image{
+    background:url("../img/banner/hero-banner.png") left center no-repeat;
+    background-size:cover;
+    z-index:1
+}
+
+#send{
+    width: 500px;
+    padding-bottom: 20px;
+    background-color: #de6320;
+    margin: auto;
+    position: fixed;
+    top: 40%;
+    left: 0px;
+    right: 0px;
+    z-index: 102;
+    display: none;
+}
+#send .ex{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px
+}
+#send .ex img{
+    width: 20px;
+}
+#send>img{
+    width: 60px;
+    display: block;
+    margin: auto;
+}
+#send h1{
+    font-size: 42px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+#bg-image h1{
+    color: #de6320;
+    line-height: 1.3;
+}
+#bg-image h1 span.upper{
+    text-transform: uppercase;
+}
+#bg-image h1 span.color{
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+}
+.hero-banner{
+    width: 100%;
+    padding: 0px;
+}
+.hero-banner__content{
+    width: 100%;
+}
+.serv{
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#f7f7f7;
+    padding: 20px ;
+}
+.serv-2{
+     margin: auto;
+     padding: 0px;
+}
+
+.serv .image{
+    width: 41%;
+    height: 100%
+}
+
+.serv .image img{
+    width: 100%;
+}
+.serv .content{
+    width: 66%;
+}
+.serv .content h1{
+    font-size: 45px;
+    padding-left: 20px;
+}
+
+.serv-1 .content ul{
+    margin-left: 20px;
+}
+
+.serv .content ul li{
+    margin-top: 10px;
+    padding-left: 62px;
+    color: #de6320;
+    font-size: 20px;
+}
+
+
+.serv-2 .content button.order{
+    margin: auto;
+    display: block;
+}
+.serv-1 .content ul li:nth-child(1){
+    background: url(../img/icons/new/bank50.png) no-repeat 
+}
+.serv-1 .content ul li:nth-child(2){
+    background: url(../img/icons/new/gavel50.png) no-repeat 
+}
+.serv-1 .content ul li:nth-child(3){
+    background: url(../img/icons/new/car50.png) no-repeat ;
+    padding: 0px 40px 0px 62px;
+}
+.serv-1 .content ul li:nth-child(4){
+    background: url(../img/icons/new/hand-shake50.png) no-repeat 
+}
+
+.serv .content .order{
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+    margin-top: 11px;
+    padding: 8px 0px;
+    border: none;
+    background-color: #de6320;
+    color: #ffffff;
+    width: 200px;
+}
+.serv-2 .image{
+    width: 90%;
+     margin: 40px auto 0px ;
+}
+.serv-2 .image img{
+    width: 100%;
+}
+.serv-2 ul{
+    margin-top: 20px;
+}
+.serv-2 ul li,.serv-2 p{
+    color: #de6320;
+    font-size: 20px;
+}
+.serv-2 p{
+    text-align: center;
+    font-weight: bold;
+}
+.serv-2 .content .order{
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+    margin-top: 11px;
+    padding: 8px 0px;
+    border: none;
+    background-color: #de6320;
+    color: #ffffff;
+    width: 200px;
+}
+@media screen and (max-width:992px){
+    .serv{
+        flex-flow: column;
+    }
+    .serv .image{
+        width: 50%;
+        margin: auto;
+        
+    }
+    .serv .content {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .serv .content h1{
+        text-align: center
+    }
+    .serv .content p{
+        text-align: center;
+    }
+    .serv .content  .order{
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:560px){
+    .serv-2 ul li{
+        text-align: center;
+    }
+    .serv-2 .image{
+        width: 90%;
+    }
+    
+}
+#about{
+    text-align: center;
+    padding: 120px 0px;
+}
+#about .wrraper{
+    width: 800px;
+    margin: auto;
+}
+
+
+@media screen and (max-width:841px){
+    #about .wrraper{
+        width: 80%;
+    }
+}
+
+#about .wrraper p{
+    text-align: center;
+    margin-top: 12px;
+    color: #de6320;
+    font-size: 18px;
+}
+#contact{
+    text-align: center;
+    
+}
+#contact h1{
+    font-size: 40px;
+    color: #ffffff;
+}
+#contact .wrraper{
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+#contact .wrraper .t-f{
+    display: flex;
+    justify-content: space-between;
+}
+#contact .wrraper .t-f input{
+    width: 260px;
+    border: none;
+    background-color: #f2f3f7;
+    padding: 8px 0px 8px 20px;
+    outline: none;
+}
+#contact .wrraper .t-f label.error{
+    display: block;
+    color:#de6320;
+}
+#contact .wrraper .msg{
+    width: 100%;
+}
+#contact .wrraper textarea{
+    width: 100%;
+    resize: none;
+    height: 110px;
+    border: none;
+    background-color: #f2f3f7;
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+#contact .wrraper .msg label{
+    color: #de6320;
+}
+
+@media screen and (max-width:1000px){
+        
+    #contact .wrraper{
+        width: 100%;
+    }
+    #contact .wrraper .t-f {
+      
+    }
+    #contact .wrraper .t-f input{
+        width: 32%;
+        display: block;
+         padding: 8px 0px 8px 20px;
+    }
+    
+    
+    
+}
+
+.footer-area .container .row{
+    justify-content: space-around;
+}
+.footer-area .container .link-list{
+    text-align: center;
+}
+.footer-area .container h6.center{
+    text-align: center
+}
+#contact .wrraper #send{
+    width: 400px;
+    margin-top: 20px;
+    padding: 9px;
+    background-color: #de6320;
+    border: none;
+    color: #ffffff;
+}
+@media screen and (max-width:700px){
+        
+    #contact .wrraper .t-f{
+        flex-flow: column;
+        justify-content: center;
+    }
+    #contact .wrraper .t-f input{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    #contact .wrraper #send{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:991px){
+   
+
+.header_area .navbar .nav .nav-item:hover .nav-link,.header_area .navbar .nav .nav-item.active .nav-link{color:#ffff;opacity:1;border-bottom:1px solid #ffffff}
+}
+.social{
+    padding: 0px;
+    display: flex;
+    width: 60px;
+    justify-content: space-around
+}
+.social  li{
+display: block;
+padding: 0px;
+}
+.social  li:nth-child(1){
+    padding-right: 5px;
+    border-right: 2px solid #de6320;
+}
+.social  li:nth-child(1){
+    padding-left: 5px;
+}
+.social  li a{
+    width: 19px;
+    display: block;
+    padding: 0px;
+}
+.social  li a img{
+    width: 100%;
+}
+
+.social-footer {
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-footer a{
+    width: 20px;
+}
+.social-footer a img{
+    width: 100%;
+}
+
+#bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000,000,000,.8);
+    z-index:100;
+    display: none;
+}
+
+.address h1{
+    font-size: 16px;
+    color: #ffffff;
+}
+.ph h1{
+    font-size: 16px;
+    color: #ffffff;
+}
+.mail h1{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+
+#win{
+    width: 450px;
+    margin: auto;
+    padding-bottom:10px;
+    background-color: #de6320;
+    position: fixed;
+    top: 19%;
+    left: 0px;
+    right: 0px;
+    z-index: 101;
+    display: none;
+}
+#win .row{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    margin: auto;
+}
+#win .row .ex{
+    width:30px;
+    height:30px;
+    margin-top: 12px;
+    cursor: pointer;
+    
+}
+#win .row .ex span{
+    width: 30px;
+    height: 5px;
+    display: block;
+    position: absolute;
+}
+#win .row .ex span:nth-child(1){
+    transform: rotate(45deg);
+    transform-origin: 50% 50%;
+    background-color: #ffffff;
+}
+
+#win .row .ex span:nth-child(2){
+    transform: rotate(135deg);
+    transform-origin: 50% 50%;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+#win .row img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: none;
+}
+#win>img{
+    width:340px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+#win form{
+    width: 230px;
+    margin: auto;
+}
+#win  input{
+    width: 100%;
+    display: block;
+    margin: auto ;
+    margin-bottom: 5px;
+    padding: 6px;
+    outline: none;
+}
+#win label{
+    display: block;
+    color: #ffffff;
+    
+}
+#win form textarea{
+    width: 100%;
+    padding: 7px;
+    margin: auto;
+    display: block;
+    resize:none;
+    height: 130px;
+     outline: none;
+}
+#win form input[type="submit"]{
+    background-color: #000000;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+}
+
+@media screen  and  (max-width:991px){
+    .hed{
+        text-align: center;
+    }
+    .hed+P{
+         text-align: center;
+    }
+   .address h1{
+     text-align: center;
+    }
+    .ph h1{
+        text-align: center;
+    }
+    .mail h1{
+        text-align: center;
+    }
+    .address p{
+     text-align: center;
+    }
+    .ph p{
+        text-align: center;
+    }
+    .mail p{
+        text-align: center;
+    }
+}
+
+
+@media screen  and  (max-width:550px){
+    
+    #win{
+        width: 80%;
+        padding: 0px;
+    }
+    #win .row{
+        margin-bottom: 10px;
+    }
+    #win>img{
+        width: 80%
+    }
+    #win form input{
+        padding: 1px;
+    }
+    .header_area .navbar-brand{
+        margin-right:30px;
+        width: 270px;
+    
+    }
+}
+
+.work{
+    padding: 40px 0px;
+}
+.work>h1{
+    text-align: center;
+}
+
+.work .wrraper{
+    width: 1100px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.work .wrraper .arrow{
+    width: 30px;
+   
+}
+.work .wrraper .arrow img{
+     width: 30px;
+     height: 40px;
+     margin-top: 200%;
+}
+.work .wrraper .item{
+    width: 180px;
+   
+}
+.work .wrraper .item .image{
+    width: 100%;
+    border-radius:30px;
+    overflow: hidden;
+    border:5px solid #de6320;;
+}
+.work .wrraper .item img{
+    width: 100%;
+    overflow: hidden
+}
+
+.work .wrraper .item h1{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media screen  and  (max-width:1200px){
+    .work{
+    padding: 40px 0px;
+}
+.work>h1{
+    text-align: center;
+}
+  .work .wrraper .arrow{
+        display: none;
+    }
+.work .wrraper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+}
+

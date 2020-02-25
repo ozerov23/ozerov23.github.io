@@ -1,0 +1,15 @@
+#info .menu .item h2 span:hover{
+	animation-name: pulsing;
+	animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pulsing{
+   0%{ 
+	
+	
+   }
+   100% {
+	   background: url(../img/bg/line-h.png) no-repeat  -384px bottom;
+	}
+}
