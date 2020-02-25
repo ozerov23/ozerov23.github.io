@@ -1,0 +1,12 @@
+header .btn{
+    animation: radial-pulse 1s infinite;
+}
+@keyframes radial-pulse {
+  0% {
+    box-shadow: 0 0 0 0px  rgba(15,78,181,.4);
+  }
+ 
+  100% {
+    box-shadow: 0 0 0 20px rgba(15,78,181,.4);
+  }
+}
